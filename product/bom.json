@@ -471,7 +471,7 @@
     {
       "id": "charge_cable",
       "role": "充电线",
-      "name": "USB Type-C充电线，5V电源；后口仅充电，外壳开口11×5mm",
+      "name": "USB Type-C充电线，5V电源；后口仅充电，外侧收口9.54×3.76mm、R1.6；内侧11.8×5.4mm胶囊让位",
       "part_number": "USB-C-compact-charge-cable",
       "quantity": 1,
       "source": "default",

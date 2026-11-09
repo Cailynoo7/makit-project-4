@@ -82,11 +82,19 @@
           9.0
         ],
         "opening_mm": [
-          11.0,
-          5.0
+          9.54,
+          3.76
         ],
         "connector_mouth_y_mm": 9.135,
-        "note": "垂直GT-USB-7096C后向插接，实际口沿突出约0.385mm，总厚度仍由后电源键限定。"
+        "note": "内侧11.8×5.4mm胶囊让位，外侧9.54×3.76mm、R1.6圆角收口贴合真实插座口沿。0.7mm轴向收口边高出背板0.4mm，后边界y9.15仍小于电源帽y9.45。收口边对插座局部净距约0.259mm；线缆插到底及打印配合须首件试验。",
+        "opening_shape": "rounded_rectangle_following_socket_mouth",
+        "internal_relief_mm": [
+          11.8,
+          5.4
+        ],
+        "corner_radius_mm": 1.6,
+        "lip_outer_y_mm": 9.15,
+        "lip_inner_y_mm": 8.45
       }
     }
   ],

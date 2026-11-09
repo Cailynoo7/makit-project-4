@@ -113,7 +113,23 @@ channel-=Pos(0,case_depth/2-2.0,-14.3)*Box(case_width+2,4,8)
 front+=lap
 lid-=channel
 lid-=Pos(power_x,case_depth/2-0.4,power_z)*Rot(90,0,0)*Cylinder(3.0,5)
-lid-=Pos(17.4,case_depth/2-0.5,9.0)*Box(11.0,5,5.0)
+usb_x=param('usb_opening_center_x',17.4)
+usb_z=param('usb_opening_center_z',9.0)
+usb_w=param('usb_opening_width',11.8)
+usb_h=param('usb_opening_height',5.4)
+# True capsule opening: semicircular ends, sufficient clearance around the real socket.
+lid-=Pos(usb_x,case_depth/2-0.5,usb_z)*Rot(90,0,0)*extrude(SlotOverall(usb_w,usb_h),amount=2.5,both=True)
+usb_visible_w=param('usb_visible_opening_width',9.54)
+usb_visible_h=param('usb_visible_opening_height',3.76)
+usb_visible_r=param('usb_visible_corner_radius',1.6)
+usb_lip_inner_y=param('usb_lip_inner_y',8.45)
+usb_lip_outer_y=param('usb_lip_outer_y',9.15)
+# Outer close-fitting mouth; the deeper capsule clears the socket body.
+usb_lip_mid=(usb_lip_inner_y+usb_lip_outer_y)/2
+usb_lip_t=usb_lip_outer_y-usb_lip_inner_y
+usb_rim=Pos(usb_x,usb_lip_mid,usb_z)*Rot(90,0,0)*extrude(SlotOverall(usb_w+0.4,usb_h+0.4),amount=usb_lip_t/2,both=True)
+usb_throat=Pos(usb_x,usb_lip_mid,usb_z)*Rot(90,0,0)*extrude(RectangleRounded(usb_visible_w,usb_visible_h,usb_visible_r),amount=usb_lip_t/2+0.1,both=True)
+lid+=usb_rim-usb_throat
 post_front=carrier_y+0.3
 post_back=case_depth/2-1.9
 lid+=Pos(10,(post_front+post_back)/2,-13.55)*Box(3.0,post_back-post_front,1.8)

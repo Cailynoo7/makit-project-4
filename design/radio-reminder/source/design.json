@@ -12,7 +12,7 @@
           "target": "front_shell",
           "order": 0,
           "path": "design/radio-reminder/source/parts/front_shell/000-front_shell.py",
-          "sha256": "b3734f2703a2ea68e8dae18907d63b286f2f4aa289df3fbf4569cd0a607f1af3"
+          "sha256": "3b755268a11db137a225cd9499dde8d2c30b88253aa0904f1fabee54ff8bf98b"
         }
       ],
       "dependencies": []
@@ -388,7 +388,7 @@
       "label": "薄型后盖与固定面",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "76fde901dc93d6e44b4a930233c3727cf3a3374aecb64b0c460cf7fe3783b2d7",
+      "shapeHash": "ab60b3b4f520cd3b4cafa5e0dc6b3d7ce3087da492cccc86973e1f9f5e8df81d",
       "transform": {
         "positionMm": [
           0,
@@ -801,7 +801,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-11-09T09:50:58.253Z",
+  "updatedAt": "2026-11-09T11:30:01.625Z",
   "parameters": {
     "front_shell": {
       "case_width": 60,
@@ -827,7 +827,16 @@
       "lower_hook_x": 18,
       "lower_hook_width": 5,
       "front_function_key_z": -4,
-      "front_function_key_size": 6.2
+      "front_function_key_size": 6.2,
+      "usb_opening_center_x": 17.4,
+      "usb_opening_center_z": 9,
+      "usb_opening_width": 11.8,
+      "usb_opening_height": 5.4,
+      "usb_visible_opening_width": 9.54,
+      "usb_visible_opening_height": 3.76,
+      "usb_visible_corner_radius": 1.6,
+      "usb_lip_inner_y": 8.45,
+      "usb_lip_outer_y": 9.15
     },
     "imports": {},
     "rear_lid": {
