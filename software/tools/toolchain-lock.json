@@ -1,0 +1,36 @@
+{
+  "host": "macOS-arm64",
+  "java": "Zulu JDK 17.0.21",
+  "android_platform": "35 r02",
+  "android_build_tools": "35.0.0",
+  "arduino_cli": "1.5.2-rc.1 (fef6e48df)",
+  "board": "Seeeduino:nrf52:xiaonRF52840",
+  "core_version": "1.1.13",
+  "tool_dependencies": {
+    "arm-none-eabi-gcc": "9-2019q4",
+    "CMSIS": "5.7.0",
+    "nrfjprog": "9.4.0"
+  },
+  "downloads": {
+    "jdk.tar.gz": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-macosx_aarch64.tar.gz",
+      "sha256": "f4a4d641d4441f480939176208f333aa9403e0a68d27e87245cec98cc994f943",
+      "size": 192176902
+    },
+    "platform.zip": {
+      "url": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
+      "size": 64273788
+    },
+    "build-tools.zip": {
+      "url": "https://dl.google.com/android/repository/build-tools_r35_macosx.zip",
+      "sha256": "530cdbd1ec315e1477624d7ed2f0f2962108d69f36eddba5894cef9ea2cedb48",
+      "size": 76857898
+    },
+    "arduino-cli.tar.gz": {
+      "url": "https://downloads.arduino.cc/arduino-cli/arduino-cli_1.5.2-rc.1_macOS_ARM64.tar.gz",
+      "sha256": "24479837c6d30d36e6bebf446eb0d20e2dce465223fc004335de4732570b2cfa",
+      "size": 17234307
+    }
+  }
+}

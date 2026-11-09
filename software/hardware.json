@@ -1,0 +1,27 @@
+{
+  "pcb_release": "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27",
+  "cad_revision": "bd6dccc836a6128dad2e18ea90512280dc052231f96e8ca5fb806567bae907ab",
+  "physical_buttons": 4,
+  "front_button": {
+    "position_mm": [
+      0,
+      -9.45,
+      -4
+    ],
+    "pin": "D2",
+    "short_idle": "switch_sound_and_preview",
+    "short_alert": "stop_and_reset_count_only",
+    "long_3s": "pairing_window_60s"
+  },
+  "unused_pin": "D3",
+  "controller_wire_count": 10,
+  "compatible_pcb_releases": [
+    "b214c430e0b76a27b88e1ff2e4da4978f92319fffbd9c049c417d8f65235cd53",
+    "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27"
+  ],
+  "power_button_position_mm": [
+    7,
+    9.45,
+    9
+  ]
+}

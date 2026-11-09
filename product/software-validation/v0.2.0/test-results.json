@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "command": [
+        "${PROJECT}/.work/software/toolchains/zulu17.70.113-ca-jdk17.0.21.0.3-macosx_aarch64/Contents/Home/bin/javac",
+        "-d",
+        "${PROJECT}/.work/software/java-tests",
+        "${PROJECT}/software/android/app/src/main/java/cn/makit/radioreminder/MissedEngine.java",
+        "${PROJECT}/software/android/app/src/main/java/cn/makit/radioreminder/Protocol.java",
+        "${PROJECT}/software/android/app/src/main/java/cn/makit/radioreminder/IncomingEpisode.java",
+        "${PROJECT}/software/tests/EngineTest.java"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "${PROJECT}/.work/software/toolchains/zulu17.70.113-ca-jdk17.0.21.0.3-macosx_aarch64/Contents/Home/bin/java",
+        "-cp",
+        "${PROJECT}/.work/software/java-tests",
+        "EngineTest"
+      ],
+      "exit_code": 0,
+      "output": "EngineTest: 25 checks passed\n"
+    },
+    {
+      "command": [
+        "clang++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "${PROJECT}/software/tests/firmware_test.cpp",
+        "-o",
+        "${PROJECT}/.work/software/firmware_test"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "${PROJECT}/.work/software/firmware_test"
+      ],
+      "exit_code": 0,
+      "output": "Firmware core: protocol, time lease, night boundary, reconnect, volume and timer wrap passed\n"
+    }
+  ]
+}
