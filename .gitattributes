@@ -1,0 +1,5 @@
+# Keep verified CAD exchange assets byte-for-byte and out of line diffs.
+*.step binary
+# Preserve supplier CSV line endings in fabrication packages.
+*.csv -text
+*.csv whitespace=cr-at-eol

@@ -1,0 +1,7 @@
+p=part('front_shell')
+length=param('dial_red_length',30.0)
+thickness=param('dial_print_thickness',0.08)
+stripe=Pos(7.5,p.front_y-0.48,p.tuner_z-0.25)*Box(length,thickness,0.3)
+stripe+=Pos(7.5,p.front_y-0.48,p.tuner_z)*Box(0.3,thickness,1.7)
+stripe.color=srgb('#b63546')
+publish('dial_red',stripe,'红色调谐印刷',material='petg')

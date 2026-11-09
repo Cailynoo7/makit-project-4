@@ -1,0 +1,183 @@
+{
+  "requirements": {
+    "product_name": {
+      "value": "收音机外型静音漏接提醒器",
+      "source": "user"
+    },
+    "product_class": {
+      "value": "electronic",
+      "source": "user"
+    },
+    "target_users": {
+      "value": "容易误触静音、忽略手机状态的中老年人；子女协助首次配置",
+      "source": "user"
+    },
+    "phone_platform": {
+      "value": "Android 优先",
+      "source": "user"
+    },
+    "connectivity": {
+      "value": "与手机保持低功耗蓝牙连接",
+      "source": "user"
+    },
+    "app_preference": {
+      "value": "接受轻量 Android 配套 App，由子女安装并首次授权，老人日常只使用挂件",
+      "source": "user"
+    },
+    "trigger_window_seconds": {
+      "value": 600,
+      "source": "user"
+    },
+    "trigger_missed_calls": {
+      "value": 3,
+      "source": "user"
+    },
+    "trigger_condition": {
+      "value": "10 分钟滑动窗口内连续 3 通未接来电，且静音/勿扰；状态不可读时允许疑似静音漏接模型",
+      "source": "user"
+    },
+    "counting_semantics": {
+      "value": "按不同来电事件去重，以第 3 通结束未接时判定；号码可不同；接听成功清空连续未接序列；拒接不计入疑似漏接；无法区分拒接时需交叉验证未接通知，不能直接把响铃后空闲算作未接",
+      "source": "default"
+    },
+    "call_scope": {
+      "value": "首版仅覆盖系统蜂窝电话；微信等网络通话不计入",
+      "source": "default"
+    },
+    "sound_options": {
+      "value": [
+        "叮咚叮咚",
+        "叮叮叮叮"
+      ],
+      "source": "user"
+    },
+    "stop_conditions": {
+      "value": "查看手机、接听或回拨后停止；取消独立实体确认键",
+      "source": "user"
+    },
+    "view_phone_interpretation": {
+      "value": "通过用户点击未接通知或App明确确认判断已查看；仅亮屏/解锁不等同已查看；系统无法判断时可在提醒中短按前面单键停止本轮，但不据此认定已查看手机",
+      "source": "default"
+    },
+    "quiet_hours": {
+      "value": {
+        "start": "22:00",
+        "end": "06:00"
+      },
+      "source": "user"
+    },
+    "quiet_time_behavior": {
+      "value": "按手机本地时间同步；夜间不出声且不在 06:00 补响；无有效时间同步时保持无声并提示需连接",
+      "source": "default"
+    },
+    "controls": {
+      "value": {
+        "rear": [
+          "USB Type-C 充电口",
+          "ON/OFF 开关机按键"
+        ],
+        "front": [
+          "换声音按键"
+        ],
+        "top": [
+          "音量加",
+          "音量减"
+        ]
+      },
+      "source": "user"
+    },
+    "control_mapping": {
+      "value": "前面原下方位置的三角标识单键：待机短按换提示音并试听，正在提醒时短按仅停止本轮提醒并清空计数，长按3秒开放60秒配对；顶部±调音量，后电源长按2秒开关机",
+      "source": "default"
+    },
+    "max_overall_dimension_mm": {
+      "value": 60,
+      "source": "user"
+    },
+    "dimension_scope": {
+      "value": "60 毫米包括提手、按键及固定挂点；不包括可拆挂绳",
+      "source": "default"
+    },
+    "design_direction": {
+      "value": "严格参考上传图片：黑色横向收音机、矩形提手、左右双圆孔网罩及银色圈、上方长条调谐窗、中部方形按键和红色点缀",
+      "source": "user"
+    },
+    "decorative_features": {
+      "value": "调谐窗为装饰，无显示屏；双网罩允许单扬声器发声以节省空间，外部视觉保持双圆布局",
+      "source": "default"
+    },
+    "workflow": {
+      "value": "先选定硬件，再设计外壳",
+      "source": "user"
+    },
+    "alert_cadence": {
+      "value": "每 10 秒播放一次短提示，起音渐强；单轮最多 2 分钟，之后保留无声状态提示；确认后重新开始独立漏接序列",
+      "source": "default"
+    },
+    "suspected_silent_model": {
+      "value": "仅当静音状态不可用时，使用 10 分钟内 3 个独立未接事件且期间无成功接听或确认作为启发式判断；只能称疑似，误报需实机验证",
+      "source": "default"
+    },
+    "battery_target": {
+      "value": "连续连接待机目标至少 72 小时，每日 10 次短提示；作为工程目标，须样机功耗测量后验收",
+      "source": "default"
+    },
+    "acoustic_target": {
+      "value": "柔和提示音，3 档音量，最大档暂定 0.5 米处 65–75 dBA；由实测和目标用户试听验证",
+      "source": "default"
+    },
+    "connection_failure": {
+      "value": "断连不推断漏接、不补报旧来电；重连按时间戳去重；低电与断连用低亮状态灯提示",
+      "source": "default"
+    },
+    "privacy": {
+      "value": "首版本地处理，不上传联系人或通话记录；BLE 仅发送事件、状态与时间，不发送号码",
+      "source": "default"
+    },
+    "base_board": {
+      "value": "seeed/xiao-ble，XIAO nRF52840 基础版，非 Sense/Plus",
+      "source": "default"
+    },
+    "assembly_method": {
+      "value": "保留 XIAO nRF52840 主控，设计小载板连接四个按键及音频、电源外围，接受制板费用与等待",
+      "source": "user"
+    },
+    "battery_sourcing": {
+      "value": "允许目录外比较有机械与充电规格的薄型带保护锂电池，须有国内淘宝等平台购买渠道",
+      "source": "user"
+    },
+    "battery": {
+      "value": "远阳 FLY.502728.390，390 mAh，C5154896，带保护板成品最大30.5×28×5.3 mm，不含导线",
+      "source": "user"
+    },
+    "overall_thickness_mm": {
+      "value": 19,
+      "source": "user"
+    },
+    "thin_layout_preserved_parts": {
+      "value": "保留XIAO nRF52840、FLY.502728.390 390mAh电池、顶部音量键与后置Type-C；允许重做载板及外壳",
+      "source": "user"
+    },
+    "rear_cover_closure": {
+      "value": "后盖外缘齐平、闭合贴合，避免明显大缝隙",
+      "source": "user"
+    },
+    "rear_hidden_fastening": {
+      "value": "后盖左右对称固定，保留约19毫米整机厚度、原有电子硬件和紧密接缝；螺钉不加遮挡片，拧紧后螺钉头与表面齐平，只留匹配沉头的小孔",
+      "source": "user"
+    },
+    "front_button_layout": {
+      "value": "删除下方独立圆形确认键，将上方三角标识换音键移至原下方确认键位置；正面只保留一个功能按键",
+      "source": "user"
+    },
+    "rear_power_layout": {
+      "value": "调整背面电源键位置，使布局更规整",
+      "source": "user"
+    },
+    "rear_power_layout_default": {
+      "value": "电源键中心x7,z9，与后置Type-C中心z9对齐横排；下方居中推杆会侵入电池包络，故保留上方可用空间",
+      "source": "default"
+    }
+  },
+  "open_questions": []
+}

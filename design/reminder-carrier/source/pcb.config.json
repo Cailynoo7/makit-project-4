@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "title": "漏接提醒器按键与音频载板",
+  "manufacturing": {
+    "name": "ordinary-2layer-fr4-1oz",
+    "layers": 2,
+    "copperThicknessOz": {
+      "outer": 1
+    },
+    "finishedThicknessMm": 1.0,
+    "defaultTraceWidthMm": 0.3,
+    "absoluteMinimumTraceWidthMm": 0.2,
+    "absoluteMinimumCopperClearanceMm": 0.15,
+    "preferredRoutingClearanceMm": 0.25,
+    "copperToBoardEdgeMm": 0.3,
+    "via": {
+      "diameterMm": 0.6,
+      "drillMm": 0.3
+    },
+    "waveSolderVia": {
+      "diameterMm": 0.8,
+      "drillMm": 0.4
+    }
+  },
+  "netClasses": {
+    "signal": {
+      "nominalWidthMm": 0.3,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "cpu_io": {
+      "nominalWidthMm": 0.25,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "power": {
+      "nominalWidthMm": 0.5,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "high_current": {
+      "nominalWidthMm": 0.5,
+      "minimumWidthMm": 0.4572,
+      "clearanceMm": 0.25
+    },
+    "ground": {
+      "nominalWidthMm": 0.5,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "sensitive_analog": {
+      "nominalWidthMm": 0.3,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "clock_high_speed": {
+      "nominalWidthMm": 0.3,
+      "minimumWidthMm": 0.25,
+      "clearanceMm": 0.25
+    },
+    "differential_pair": {
+      "nominalWidthMm": 0.25,
+      "minimumWidthMm": 0.2,
+      "clearanceMm": 0.25
+    }
+  },
+  "nets": {
+    "PWM": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "AMP_EN": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "SOUND": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "VOL_UP": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "VOL_DOWN": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "POWER": {
+      "class": "cpu_io",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "LP1": {
+      "class": "sensitive_analog",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "LP2": {
+      "class": "sensitive_analog",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "ATT": {
+      "class": "sensitive_analog",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "AINP": {
+      "class": "sensitive_analog",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "AINN": {
+      "class": "sensitive_analog",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "VBAT": {
+      "class": "power",
+      "rationale": "0.25W capped audio / (3.0V * 0.80) = 0.104A average; 0.25A design allowance including peaks. 0.35mm 1oz copper fits the verified 0.365mm MSOP pad and exceeds a 0.2mm requirement.",
+      "nominalWidthMm": 0.35,
+      "minimumWidthMm": 0.3,
+      "currentCapacity": {
+        "currentA": 0.25,
+        "copperThicknessOz": 1,
+        "maxTemperatureRiseC": 10,
+        "requiredWidthMm": 0.2,
+        "calculationMethod": "IPC-2221 external",
+        "rationale": "0.25A conservative audio and transient allowance; powered through original battery PCM, below cell 390mA continuous limit."
+      }
+    },
+    "V3V3": {
+      "class": "power",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "GND": {
+      "class": "ground",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "SPKP": {
+      "class": "signal",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "SPKN": {
+      "class": "signal",
+      "rationale": "Single-cell BLE reminder; low-current keys and PWM filter, capped audio output."
+    },
+    "USB5V": {
+      "class": "power",
+      "nominalWidthMm": 0.3,
+      "minimumWidthMm": 0.25,
+      "rationale": "XIAO 50mA charging plus MCU load; 150mA engineering allowance, 5V only. No PD.",
+      "escape": {
+        "widthMm": 0.25,
+        "clearanceMm": 0.15,
+        "maxLengthMm": 2,
+        "componentRefs": [
+          "USB_CHG"
+        ],
+        "rationale": "Manufacturer 0.27mm USB pads, 150mA input allowance. Full-net 0.25mm 1oz is adequate at this low input current; local access spacing matches actual supplier land pattern."
+      }
+    },
+    "CC1": {
+      "class": "cpu_io",
+      "rationale": "Separate 5.1k sink termination for each new receptacle CC pin."
+    },
+    "CC2": {
+      "class": "cpu_io",
+      "rationale": "Separate 5.1k sink termination for each new receptacle CC pin."
+    }
+  },
+  "footprintExceptions": [],
+  "copperPours": {
+    "enabled": true,
+    "groundLayers": [
+      "top",
+      "bottom"
+    ],
+    "clearanceMm": 0.3,
+    "padMarginMm": 0.3,
+    "traceMarginMm": 0.3,
+    "boardEdgeMarginMm": 0.3,
+    "cutoutMarginMm": 0.5,
+    "removeIslands": true
+  },
+  "stitchingVias": [
+    {
+      "name": "GND_AUDIO_BRIDGE",
+      "net": "GND",
+      "xMm": 13.4,
+      "yMm": 0.8,
+      "diameterMm": 0.6,
+      "drillMm": 0.3,
+      "rationale": "Diagnosed F.Cu GND fragment bbox x12.6397..17.4765,y0.1505..2.4411. KiCad filled polygon readback proves full 0.6mm via circle at (13.4,0.8) lies in both F.Cu and B.Cu GND fill and >0.35mm outside every pad bbox. Joins analog return to bottom ground without via-in-pad."
+    }
+  ],
+  "copperAreas": [],
+  "keepouts": [],
+  "allowedOverlaps": [],
+  "allowedViaInPadComponents": [],
+  "pcbRuleExceptions": [],
+  "componentOrientations": [
+    {
+      "componentRef": "USB_CHG",
+      "vertical": true,
+      "rationale": "Vertical receptacle on service/back face; mating axis normal to board toward rear case."
+    }
+  ],
+  "bomBindings": [
+    {
+      "bomItemId": "audio_amplifier",
+      "designators": [
+        "U_AMP"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "face_keys",
+      "designators": [
+        "SW_SOUND",
+        "SW_PWR"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "volume_keys",
+      "designators": [
+        "SW_UP",
+        "SW_DOWN"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "r10k",
+      "designators": [
+        "R_F1",
+        "R_F2",
+        "R_ATT",
+        "R_SD",
+        "R_PWR"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "r1k",
+      "designators": [
+        "R_DIV"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "c10n",
+      "designators": [
+        "C_F1",
+        "C_F2"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "c100n",
+      "designators": [
+        "C_INP",
+        "C_INN"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "c1u",
+      "designators": [
+        "C_HF"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "c10u",
+      "designators": [
+        "C_BULK1",
+        "C_BULK2"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "charge_usb",
+      "designators": [
+        "USB_CHG"
+      ],
+      "populate": true
+    },
+    {
+      "bomItemId": "usb_cc_resistors",
+      "designators": [
+        "R_CC1",
+        "R_CC2"
+      ],
+      "populate": true
+    }
+  ]
+}

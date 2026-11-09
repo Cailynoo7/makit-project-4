@@ -1,0 +1,35 @@
+# Makit — managed block, edited by the app. Your own rules go above.
+/.work/
+/.makit/
+.history/
+.DS_Store
+*.tmp-*
+*.old-*
+
+/workspace/cad-workbench/
+/workspace/scratch/
+/workspace/.sandbox-runtime/
+/workspace/.tool-output/
+/snapshots/
+/workspace/pcb/*/build/
+/workspace/pcb/*/cache/
+/workspace/pcb/*/generated/
+/workspace/pcb/*/kicad/
+/workspace/pcb/*/previews/
+/workspace/pcb/*/reports/
+/workspace/pcb/*/routing/
+/workspace/pcb/*/release/
+/artifacts/
+!/artifacts/**/
+!/artifacts/**/*.json
+!/artifacts/**/*.md
+
+manufacturing/**
+!manufacturing/**/
+!manufacturing/**/*.json
+!manufacturing/**/*.md
+
+/product/references/**
+!/product/references/**/
+!/product/references/index.json
+# Makit — end managed block

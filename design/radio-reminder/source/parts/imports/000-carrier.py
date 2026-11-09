@@ -1,0 +1,1 @@
+publish("carrier", asset("design/radio-reminder/source/assets/15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7.step"), "电源键同高横排载板")

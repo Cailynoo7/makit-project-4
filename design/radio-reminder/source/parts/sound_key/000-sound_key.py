@@ -1,0 +1,14 @@
+p=part('front_shell')
+key_size=p.front_key_size
+key_protrusion=param('sound_key_protrusion',0.7)
+tip_gap=param('sound_tip_gap',0.2)
+head=Pos(0,p.front_y+1.0,p.front_key_z)*Box(key_size,3.4,key_size)
+head=fillet(head.edges(),0.3)
+head+=Pos(0,p.front_y+p.wall+0.4,p.front_key_z)*Box(key_size+2,0.6,key_size+2)
+stem_start=p.front_y+p.wall+0.7
+stem_end=p.carrier_y-2.545-tip_gap
+head+=Pos(0,(stem_start+stem_end)/2,p.front_key_z)*Rot(90,0,0)*Cylinder(1.2,stem_end-stem_start+0.1)
+tri=Pos(0,p.front_y-0.6,p.front_key_z)*Rot(90,0,0)*extrude(RegularPolygon(1.7,3,rotation=0),0.25)
+head+=tri
+head.color=srgb('#202124')
+publish('sound_key',head,'换音多功能键帽',material='petg')

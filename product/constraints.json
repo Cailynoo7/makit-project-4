@@ -1,0 +1,182 @@
+{
+  "units": "mm",
+  "status": "modelled",
+  "overall_limit_mm": 60,
+  "overall_limit_source": "user",
+  "reference_style": "上传参考图：含提手的黑色收音机、银色双圆网罩、调谐窗、中部方键",
+  "main_controller": {
+    "platform_ref": "seeed/xiao-ble",
+    "variant": "基础版",
+    "outline_mm": [
+      20.955,
+      17.78
+    ],
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_Seeed_Studio_XIAO_nRF52840_v1.2.zip",
+    "placement": "板面平行前后壳，长轴X，原USB朝+X在壳内。PCB中心(15.4,5.8,-3.5)，基板1mm，前方4mm元件保留区。",
+    "mounting": "后盖两个3×10mm固定面，0.25mm可移除薄胶与下缘定位边；取消高排针，10根贴板焊线。板高保留区非实测。"
+  },
+  "speaker": {
+    "mpn": "HDK-1804AA-1W",
+    "diameter_max_mm": 18.2,
+    "height_max_mm": 4.8,
+    "lead_length_mm": {
+      "nominal": 35,
+      "tolerance": 3
+    },
+    "evidence": "厂商规格书第5页机械图",
+    "face": "front",
+    "position": "左网罩，最大D18.2×4.8mm，中心(-18,-3.95,-5)，轴Y，柔性胶固定，前加0.15mm透声布"
+  },
+  "interactive_elements": [
+    {
+      "id": "sound",
+      "face": "front",
+      "switch": "TS-1187A-B-A-B",
+      "center_mm": [
+        0,
+        -9.45,
+        -4
+      ],
+      "function": "待机短按换音试听，提醒中短按停止清零；长按3秒配对"
+    },
+    {
+      "id": "power",
+      "face": "back",
+      "switch": "TS-1187A-B-A-B",
+      "center_mm": [
+        7,
+        9.45,
+        9
+      ]
+    },
+    {
+      "id": "volume_up",
+      "face": "top",
+      "switch": "TS24CA C393942",
+      "center_mm": [
+        -18,
+        -1.95,
+        17.7
+      ]
+    },
+    {
+      "id": "volume_down",
+      "face": "top",
+      "switch": "TS24CA C393942",
+      "center_mm": [
+        -7,
+        -1.95,
+        17.7
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "id": "charge",
+      "type": "USB Type-C",
+      "face": "back",
+      "position": {
+        "center_mm": [
+          17.4,
+          8.75,
+          9.0
+        ],
+        "opening_mm": [
+          11.0,
+          5.0
+        ],
+        "connector_mouth_y_mm": 9.135,
+        "note": "垂直GT-USB-7096C后向插接，实际口沿突出约0.385mm，总厚度仍由后电源键限定。"
+      }
+    }
+  ],
+  "unresolved": [],
+  "battery": {
+    "mpn": "FLY.502728.390",
+    "protected_pack_max_mm": [
+      30.5,
+      28,
+      5.3
+    ],
+    "source": "user",
+    "evidence": "厂家规格书第12页",
+    "center_mm": [
+      -10.8,
+      3.6,
+      0
+    ]
+  },
+  "pcb_bbox_mm": {
+    "w": 52,
+    "h": 26,
+    "source": "default",
+    "note": "最终发布板52×26，厚度由PCB制造配置拥有；装配STEP Rxyz=(90,0,0),T=(-100,-0.3,100)"
+  },
+  "overall_model_mm": {
+    "width": 60,
+    "height_including_handle": 44,
+    "depth_including_keys": 19.05,
+    "body_depth": 17.5,
+    "source": "default"
+  },
+  "fasteners": {
+    "standard": "ISO7046",
+    "thread": "M2-0.4",
+    "length_mm": 6,
+    "quantity": 2,
+    "centres_mm": [
+      [
+        -27.4,
+        8.75,
+        13.8
+      ],
+      [
+        27.4,
+        8.75,
+        13.8
+      ]
+    ],
+    "engagement_mm": 4,
+    "head_seat": "90度沉头，螺钉顶面与后盖外平面齐平，无独立大圆槽和遮孔片",
+    "head_recess_mm": 0
+  },
+  "mechanical_checks": {
+    "mesh_tolerance_mm": 0.02,
+    "cover_path_step_mm": 0.1,
+    "cover_removal_mm": 20,
+    "key_path_step_mm": 0.1,
+    "key_press_mm": 0.3,
+    "carrier_to_shell_min_mm": 0.155,
+    "battery_to_shell_min_mm": 0.2,
+    "xiao_board_to_cover_min_mm": 0.2,
+    "speaker_to_shell_min_mm": 0.1916,
+    "battery_to_xiao_min_mm": 0.4725,
+    "board_height_provenance": "XIAO官方v1.2轮廓，基板1mm+元件4mm为工程保留区，非厂家实测高度。",
+    "cover_opening_tilt_deg": 7,
+    "cover_opening_lift_mm": 0.8
+  },
+  "target_total_thickness_mm": {
+    "value": 19,
+    "source": "user",
+    "note": "约19mm，包括固定按键突出部；模型19.05mm"
+  },
+  "rear_closure": {
+    "source": "default",
+    "joint": "下缘双内藏刚性挂钩，上缘左右对称齐平沉头螺钉；外轮廓60×34mm齐平",
+    "mating_face_gap_mm": 0.15,
+    "overlap_from_front_rim_mm": 0.85,
+    "lap_section_mm": 1.6,
+    "hidden_lateral_clearance_mm": 0.2,
+    "hidden_axial_clearance_mm": 0.2,
+    "mating_edge_radius_mm": 0.1,
+    "note": "先卸2颗露出且齐平的沉头螺钉；以上缘向后倾约7度、向上0.8mm、再后退20mm脱钩。隐藏定位边只保留Z≥-10mm，两处螺钉旁留转动余量。外缘接缝0.15mm为设计值，首件复核均匀度及挂钩强度。",
+    "hook_centres_x_mm": [
+      -18,
+      18
+    ],
+    "hook_width_mm": 5,
+    "hook_stem_thickness_mm": 0.8,
+    "opening_tilt_deg": 7,
+    "opening_lift_mm": 0.8
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "parts": [
+    {
+      "ref": "U_XIAO",
+      "platform": "seeed/xiao-ble",
+      "quantity": 1
+    },
+    {
+      "ref": "CARRIER",
+      "name": "reminder-carrier 自定义按键音频小载板",
+      "quantity": 1
+    },
+    {
+      "ref": "BAT",
+      "name": "远阳 FLY.502728.390 带PCM电池",
+      "quantity": 1
+    },
+    {
+      "ref": "SPK",
+      "name": "HDK-1804AA-1W 扬声器",
+      "quantity": 1
+    }
+  ],
+  "connections": [
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D0"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "PWM"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D1"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "AMP_EN"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D2"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "SOUND"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D4"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "VOL_UP"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D5"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "VOL_DOWN"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "D6"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "POWER"
+      },
+      "bus": "gpio",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "GND"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "GND"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "3V3"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "V3V3"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png"
+      ]
+    },
+    {
+      "from": {
+        "part": "U_XIAO",
+        "pin": "BAT+"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "VBAT"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf"
+      ]
+    },
+    {
+      "from": {
+        "part": "BAT",
+        "pin": "P+"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "VBAT"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://atta.szlcsc.com//upload/public/pdf/source/20220914/26DADB1697C2AEB7516680D8C536C975.pdf"
+      ]
+    },
+    {
+      "from": {
+        "part": "BAT",
+        "pin": "P-"
+      },
+      "to": {
+        "part": "CARRIER",
+        "pin": "GND"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://atta.szlcsc.com//upload/public/pdf/source/20220914/26DADB1697C2AEB7516680D8C536C975.pdf"
+      ]
+    },
+    {
+      "from": {
+        "part": "CARRIER",
+        "pin": "VO+"
+      },
+      "to": {
+        "part": "SPK",
+        "pin": "+"
+      },
+      "bus": "analog",
+      "via": "solder",
+      "evidence": [
+        "https://atta.szlcsc.com//upload/public/pdf/source/20231012/5599EDEB300A326DE981CF06FE959172.pdf"
+      ]
+    },
+    {
+      "from": {
+        "part": "CARRIER",
+        "pin": "VO-"
+      },
+      "to": {
+        "part": "SPK",
+        "pin": "-"
+      },
+      "bus": "analog",
+      "via": "solder",
+      "evidence": [
+        "https://atta.szlcsc.com//upload/public/pdf/source/20231012/5599EDEB300A326DE981CF06FE959172.pdf"
+      ]
+    },
+    {
+      "from": {
+        "part": "CARRIER",
+        "pin": "USB5V"
+      },
+      "to": {
+        "part": "U_XIAO",
+        "pin": "5V"
+      },
+      "bus": "power",
+      "via": "solder",
+      "evidence": [
+        "https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf",
+        "https://raw.githubusercontent.com/Seeed-Studio/wiki-documents/docusaurus-version/sites/en/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_nRF52840-Sense/XIAO_BLE.md"
+      ]
+    }
+  ],
+  "schema_version": 1
+}

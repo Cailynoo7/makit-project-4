@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 3,
+  "backend": "tscircuit-kicad",
+  "designId": "reminder-carrier",
+  "candidateId": "8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891",
+  "exportId": "8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891",
+  "status": "ready",
+  "readyForFabrication": true,
+  "sections": [
+    {
+      "id": "fabrication",
+      "status": "ready",
+      "files": [
+        "manufacturing/drill/board-NPTH.drl",
+        "manufacturing/drill/board-PTH.drl",
+        "manufacturing/drill/reminder-carrier-drill-report.txt",
+        "manufacturing/gerbers/board-B_Cu.gbl",
+        "manufacturing/gerbers/board-B_Mask.gbs",
+        "manufacturing/gerbers/board-B_Paste.gbp",
+        "manufacturing/gerbers/board-B_Silkscreen.gbo",
+        "manufacturing/gerbers/board-Edge_Cuts.gm1",
+        "manufacturing/gerbers/board-F_Cu.gtl",
+        "manufacturing/gerbers/board-F_Mask.gts",
+        "manufacturing/gerbers/board-F_Paste.gtp",
+        "manufacturing/gerbers/board-F_Silkscreen.gto",
+        "manufacturing/gerbers/board-job.gbrjob"
+      ],
+      "blockingCodes": []
+    },
+    {
+      "id": "assembly",
+      "status": "ready",
+      "files": [
+        "manufacturing/jlc-smt-bom.csv",
+        "manufacturing/jlc-smt-placement.csv"
+      ],
+      "blockingCodes": []
+    },
+    {
+      "id": "mechanical",
+      "status": "ready",
+      "files": [
+        "manufacturing/assembly.glb",
+        "manufacturing/assembly.step"
+      ],
+      "blockingCodes": []
+    }
+  ],
+  "generatedAt": "2026-11-09T09:47:07.610Z",
+  "files": [
+    {
+      "type": "glb",
+      "path": "manufacturing/assembly.glb",
+      "sha256": "344d57a2cc3c7fead595087f414905fc53212a2bf29bb3748c727914834408eb",
+      "sizeBytes": 25244292
+    },
+    {
+      "type": "step",
+      "path": "manufacturing/assembly.step",
+      "sha256": "15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7",
+      "sizeBytes": 12077757
+    },
+    {
+      "type": "manifest",
+      "path": "manufacturing/circuit.json",
+      "sha256": "d7e2b6c9e3c24edc9d75a31e75d373d01c79975c9ba4ec81d9868f601076b783",
+      "sizeBytes": 533552
+    },
+    {
+      "type": "drill",
+      "path": "manufacturing/drill/board-NPTH.drl",
+      "sha256": "eea076f03bcfa23328d24cc963858e687b8c20691be716b59011623ea6b3650d",
+      "sizeBytes": 470
+    },
+    {
+      "type": "drill",
+      "path": "manufacturing/drill/board-PTH.drl",
+      "sha256": "0b4e1ae7449254b00f5fa167da7ec21b60db7ef9218fef13086e1490dade6451",
+      "sizeBytes": 841
+    },
+    {
+      "type": "drill",
+      "path": "manufacturing/drill/reminder-carrier-drill-report.txt",
+      "sha256": "5ab315b3c7926d9bbce64696f9bfc25ba11a3ad447faec77f35c40a6ed8b707c",
+      "sizeBytes": 767
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-B_Cu.gbl",
+      "sha256": "584208ffd2bb5f4fd2206a283624f09789d10b3bd751c253531c68bb025dde37",
+      "sizeBytes": 40055
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-B_Mask.gbs",
+      "sha256": "3624ca787ee909abc1a29c6f93dd9354400f35fc8523fc9735fab0a75c13b7d2",
+      "sizeBytes": 1993
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-B_Paste.gbp",
+      "sha256": "cbb20ecb505eaaa44150503953e622db2dcee0409031ec759c47de44b57ad4e2",
+      "sizeBytes": 1059
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-B_Silkscreen.gbo",
+      "sha256": "7aa92e7f2da3a26807c1455de41125fc1d95e3a7a8d4bce4a4284c4a4046fd1c",
+      "sizeBytes": 1587
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-Edge_Cuts.gm1",
+      "sha256": "4089222eb859384c964cc8a27ba2d9284bd058c03c63489e179a02b9c0076c34",
+      "sizeBytes": 680
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-F_Cu.gtl",
+      "sha256": "1ad414fac1aaecb0bc4bd938786882115f51ac1398c77c71bfc9565972357395",
+      "sizeBytes": 67701
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-F_Mask.gts",
+      "sha256": "fba60744d0179d30ca05632c22ccb350f70d5d190644d14b19311c3e5cfd30ce",
+      "sizeBytes": 4537
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-F_Paste.gtp",
+      "sha256": "0ef8ff5ddb15ea2bf64e556cdb95079172b622fcf86d7c5d37bc90f3759f9f2c",
+      "sizeBytes": 3578
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-F_Silkscreen.gto",
+      "sha256": "f61683d27aaed77462e35cafb859939293ac0963a865bf25481036f99b7b9568",
+      "sizeBytes": 18823
+    },
+    {
+      "type": "gerber",
+      "path": "manufacturing/gerbers/board-job.gbrjob",
+      "sha256": "a9beb4bc3bb92cece770c2cb289ed679a356812e19e37cd7528e2302ef40eca6",
+      "sizeBytes": 2657
+    },
+    {
+      "type": "bom",
+      "path": "manufacturing/jlc-smt-bom.csv",
+      "sha256": "e24561ac30e981612f73682bb8e1262872705e0c11507bfab13fcf1d00494104",
+      "sizeBytes": 794
+    },
+    {
+      "type": "pick-and-place",
+      "path": "manufacturing/jlc-smt-placement.csv",
+      "sha256": "dd3e9b1ab321986681a2599dd67f0bbf3d36f77b492cfb0d408adc05badf30bf",
+      "sizeBytes": 1158
+    }
+  ],
+  "diagnostics": [
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.jlc_smt_extended_library",
+      "message": "JLC SMT BOM item \"audio_amplifier\" uses an Extended library part.",
+      "file": "product/bom.json",
+      "jsonPointer": "/items/1/jlc_smt_library",
+      "nextAction": "Search for a Basic JLC SMT substitute with matching electrical, package, footprint, and pinout constraints. Keep the Extended part only when no credible Basic substitute exists, or move the part to manual assembly when that is cheaper.",
+      "details": {
+        "line": 42,
+        "expected": "Prefer jlc_smt_library: \"basic\" when a compatible Basic library substitute exists."
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.jlc_smt_extended_library",
+      "message": "JLC SMT BOM item \"volume_keys\" uses an Extended library part.",
+      "file": "product/bom.json",
+      "jsonPointer": "/items/5/jlc_smt_library",
+      "nextAction": "Search for a Basic JLC SMT substitute with matching electrical, package, footprint, and pinout constraints. Keep the Extended part only when no credible Basic substitute exists, or move the part to manual assembly when that is cheaper.",
+      "details": {
+        "line": 145,
+        "expected": "Prefer jlc_smt_library: \"basic\" when a compatible Basic library substitute exists."
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.image_url_missing",
+      "message": "BOM item \"charge_usb\" has an LCSC/JLC supplier code but no image_url.",
+      "file": "product/bom.json",
+      "jsonPointer": "/items/25",
+      "nextAction": "Preserve image_url from electronics.search or supplier detail lookup when returned; do not drop it when writing component-selection.json or deriving product/bom.json.",
+      "details": {
+        "line": 498
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.image_url_missing",
+      "message": "BOM item \"usb_cc_resistors\" has an LCSC/JLC supplier code but no image_url.",
+      "file": "product/bom.json",
+      "jsonPointer": "/items/26",
+      "nextAction": "Preserve image_url from electronics.search or supplier detail lookup when returned; do not drop it when writing component-selection.json or deriving product/bom.json.",
+      "details": {
+        "line": 525
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.jlc_smt_extended_library",
+      "message": "JLC SMT BOM item \"audio_amplifier\" uses an Extended library part.",
+      "file": "product/component-selection.json",
+      "jsonPointer": "/selected_components/1/jlc_smt_library",
+      "nextAction": "Search for a Basic JLC SMT substitute with matching electrical, package, footprint, and pinout constraints. Keep the Extended part only when no credible Basic substitute exists, or move the part to manual assembly when that is cheaper.",
+      "details": {
+        "line": 39,
+        "expected": "Prefer jlc_smt_library: \"basic\" when a compatible Basic library substitute exists."
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.jlc_smt_extended_library",
+      "message": "JLC SMT BOM item \"volume_keys\" uses an Extended library part.",
+      "file": "product/component-selection.json",
+      "jsonPointer": "/selected_components/5/jlc_smt_library",
+      "nextAction": "Search for a Basic JLC SMT substitute with matching electrical, package, footprint, and pinout constraints. Keep the Extended part only when no credible Basic substitute exists, or move the part to manual assembly when that is cheaper.",
+      "details": {
+        "line": 142,
+        "expected": "Prefer jlc_smt_library: \"basic\" when a compatible Basic library substitute exists."
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.image_url_missing",
+      "message": "BOM item \"charge_usb\" has an LCSC/JLC supplier code but no image_url.",
+      "file": "product/component-selection.json",
+      "jsonPointer": "/selected_components/12",
+      "nextAction": "Preserve image_url from electronics.search or supplier detail lookup when returned; do not drop it when writing component-selection.json or deriving product/bom.json.",
+      "details": {
+        "line": 333
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "warning",
+      "tier": "advisory",
+      "code": "hardware.bom.image_url_missing",
+      "message": "BOM item \"usb_cc_resistors\" has an LCSC/JLC supplier code but no image_url.",
+      "file": "product/component-selection.json",
+      "jsonPointer": "/selected_components/13",
+      "nextAction": "Preserve image_url from electronics.search or supplier detail lookup when returned; do not drop it when writing component-selection.json or deriving product/bom.json.",
+      "details": {
+        "line": 360
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "command_output",
+      "message": "Plotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-F_Cu.gtl'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-B_Cu.gbl'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-F_Paste.gtp'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-B_Paste.gbp'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-F_Silkscreen.gto'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-B_Silkscreen.gbo'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-F_Mask.gts'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-B_Mask.gbs'.\nPlotted to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/gerbers/board-Edge_Cuts.gm1'.",
+      "file": "manufacturing/gerbers",
+      "details": {
+        "exitCode": 0
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "command_output",
+      "message": "Created file '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/drill/board-PTH.drl'\nCreated file '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/drill/board-NPTH.drl'\nDone.",
+      "file": "manufacturing/drill",
+      "details": {
+        "exitCode": 0
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "command_output",
+      "message": "Fontconfig error: Cannot load default config file: No such file: (null)\nWarning: schematic has annotation errors, please use the schematic editor to fix them\nWrote bill of materials to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/bom.csv'.",
+      "file": "manufacturing/bom.csv",
+      "details": {
+        "exitCode": 0
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "command_output",
+      "message": "Wrote position data to '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/placement.csv'.",
+      "file": "manufacturing/placement.csv",
+      "details": {
+        "exitCode": 0
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "command_output",
+      "message": "STEP file '/Users/xonar/Documents/Makit/收音机型漏接提醒器/manufacturing/reminder-carrier/exports/.staging/8f6b10ca89130f3a9304e1a33dec0b99d2ef5bb7905924940722472117f19891-adfe0cfb-4560-4392-ab6a-183e39f3f110/assembly.step' created.\n\nExport time 2.459 s",
+      "file": "manufacturing/assembly.step",
+      "details": {
+        "exitCode": 0
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "assembly_step_required_models_verified",
+      "message": "Verified 21 required mounted assembly model occurrence(s) in the final KiCad STEP: C_BULK1, C_BULK2, C_F1, C_F2, C_HF, C_INN, C_INP, R_ATT, R_CC1, R_CC2, R_DIV, R_F1, R_F2, R_PWR, R_SD, SW_DOWN, SW_PWR, SW_SOUND, SW_UP, U_AMP, USB_CHG.",
+      "file": "manufacturing/assembly.step",
+      "details": {
+        "checked_model_refs": [
+          "C_BULK1",
+          "C_BULK2",
+          "C_F1",
+          "C_F2",
+          "C_HF",
+          "C_INN",
+          "C_INP",
+          "R_ATT",
+          "R_CC1",
+          "R_CC2",
+          "R_DIV",
+          "R_F1",
+          "R_F2",
+          "R_PWR",
+          "R_SD",
+          "SW_DOWN",
+          "SW_PWR",
+          "SW_SOUND",
+          "SW_UP",
+          "U_AMP",
+          "USB_CHG"
+        ]
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "assembly_surface_appearance_built",
+      "message": "Prepared deterministic board appearance for the main PCB.",
+      "file": "manufacturing/assembly-appearance.json",
+      "details": {
+        "spec_sha256": "06d540ae0bebe1755b378e2dab764c2f7b3766b924d048af9d66065c9183ede0",
+        "overlay_ids": [
+          "main-pcb:reminder-carrier"
+        ]
+      }
+    },
+    {
+      "stage": "fabrication-export",
+      "severity": "info",
+      "tier": "advisory",
+      "code": "assembly_glb_derived_from_step",
+      "message": "assembly.glb was generated from the final KiCad assembly.step, so the fabrication preview and released solid share one geometry source.",
+      "file": "manufacturing/assembly.glb",
+      "details": {
+        "source": "assembly-step",
+        "source_path": "manufacturing/assembly.step",
+        "source_step_sha256": "15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7",
+        "preview_sha256": "344d57a2cc3c7fead595087f414905fc53212a2bf29bb3748c727914834408eb",
+        "appearance_spec_sha256": "06d540ae0bebe1755b378e2dab764c2f7b3766b924d048af9d66065c9183ede0",
+        "surface_texture_overlay_ids": [
+          "main-pcb:reminder-carrier"
+        ],
+        "surface_decal_ids": [],
+        "material_override_ids": [],
+        "verified_source_material_ids": []
+      }
+    }
+  ],
+  "previews": [
+    {
+      "type": "gerber-preview-svg",
+      "path": "manufacturing/previews/gerber-top.svg",
+      "role": "fabrication",
+      "side": "top"
+    },
+    {
+      "type": "gerber-preview-png",
+      "path": "manufacturing/previews/gerber-top.png",
+      "role": "fabrication",
+      "side": "top"
+    },
+    {
+      "type": "gerber-preview-svg",
+      "path": "manufacturing/previews/gerber-bottom.svg",
+      "role": "fabrication",
+      "side": "bottom"
+    },
+    {
+      "type": "gerber-preview-png",
+      "path": "manufacturing/previews/gerber-bottom.png",
+      "role": "fabrication",
+      "side": "bottom"
+    },
+    {
+      "type": "three-d-glb",
+      "path": "manufacturing/assembly.glb",
+      "role": "assembly"
+    }
+  ],
+  "finishedThicknessMm": 1,
+  "validatedBoardSpec": {
+    "layers": 2,
+    "material": "FR4",
+    "materialNote": "FR4 is the only substrate this system fabricates designs for; source/pcb.config.json has no material field to override it.",
+    "copperThicknessOz": {
+      "outer": 1
+    },
+    "capabilityProfileName": "jlcpcb-2layer-1oz",
+    "capabilityLimits": {
+      "minTrackWidthMm": 0.1,
+      "minViaDrillMm": 0.15,
+      "minViaDiameterMm": 0.25,
+      "minAnnularRingMm": 0.05,
+      "minPlatedHoleDrillMm": 0.15,
+      "minSilkLineWidthMm": 0.15,
+      "minSilkTextHeightMm": 1,
+      "minSilkPadClearanceMm": 0.15
+    },
+    "reorderWarning": "This design was DFM-validated as a 2-layer board at 1 oz outer copper (capability profile \"jlcpcb-2layer-1oz\", minimum trace width 0.1 mm). Ordering the board at a different layer count or copper weight invalidates this DFM check, because the real fabrication minimums (trace width, via drill/diameter, annular ring, plated-hole drill) change with both. To change either, edit manufacturing.layers or manufacturing.copperThicknessOz in source/pcb.config.json and re-run pcb.run(profile=\"check\")."
+  }
+}

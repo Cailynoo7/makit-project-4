@@ -1,0 +1,904 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "makit-world-z-up",
+  "targets": [
+    {
+      "id": "front_shell",
+      "label": "front_shell",
+      "cells": [
+        {
+          "id": "front_shell",
+          "target": "front_shell",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/front_shell/000-front_shell.py",
+          "sha256": "b3734f2703a2ea68e8dae18907d63b286f2f4aa289df3fbf4569cd0a607f1af3"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "imports",
+      "label": "imports",
+      "cells": [
+        {
+          "id": "carrier",
+          "target": "imports",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/imports/000-carrier.py",
+          "sha256": "2726021ca7f10ca631156685b14e7dc8ddf370849b27c07acb479d2c602bfc5f"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear_lid",
+      "label": "rear_lid",
+      "cells": [
+        {
+          "id": "rear_lid",
+          "target": "rear_lid",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/rear_lid/000-rear_lid.py",
+          "sha256": "b21944e52f6d4e016ff97ad9852bb197d0ec521ff07ca0c36bb27d733b09a25b"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "tuner_panel",
+      "label": "tuner_panel",
+      "cells": [
+        {
+          "id": "tuner_panel",
+          "target": "tuner_panel",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/tuner_panel/000-tuner_panel.py",
+          "sha256": "a34d041623308a22d1a1dafa6313238b5e7a5e572b97eea1b6ef312e9ce20e25"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "left_ring",
+      "label": "left_ring",
+      "cells": [
+        {
+          "id": "left_ring",
+          "target": "left_ring",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/left_ring/000-left_ring.py",
+          "sha256": "de5c83beaf5a007e87c8858aaec90635760d150548e126e320f2fbd8c39e4baf"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "right_ring",
+      "label": "right_ring",
+      "cells": [
+        {
+          "id": "right_ring",
+          "target": "right_ring",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/right_ring/000-right_ring.py",
+          "sha256": "dfea1f954fd00b57f9a07a1b1c34bf7edb6172b3526073ae50e52550d7bd215a"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "sound_key",
+      "label": "sound_key",
+      "cells": [
+        {
+          "id": "sound_key",
+          "target": "sound_key",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/sound_key/000-sound_key.py",
+          "sha256": "2acc02532e56e64f594a5771a666b0aafe3530f3244d7f42aa2867016a78bb7d"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "volume_up",
+      "label": "volume_up",
+      "cells": [
+        {
+          "id": "volume_up",
+          "target": "volume_up",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/volume_up/000-volume_up.py",
+          "sha256": "b1d05dfb537de424e8b58bef5512fb9586c1698bf0e2d491c5302427faa113c8"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "volume_down",
+      "label": "volume_down",
+      "cells": [
+        {
+          "id": "volume_down",
+          "target": "volume_down",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/volume_down/000-volume_down.py",
+          "sha256": "c348b1358721b744ca39d9877f15f0d4a08899bace12dd75dff3cd22668278ac"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "power_key",
+      "label": "power_key",
+      "cells": [
+        {
+          "id": "power_key",
+          "target": "power_key",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/power_key/000-power_key.py",
+          "sha256": "73284452fdd26843568c587dfcfcfd18f0f4b0b5351fbf750d9bba188a35f788"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "tuner_insert",
+      "label": "tuner_insert",
+      "cells": [
+        {
+          "id": "tuner_insert",
+          "target": "tuner_insert",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/tuner_insert/000-tuner_insert.py",
+          "sha256": "f42bf2bddae595362cef068afb8fa5c0ec6afd362ed85b86a04c5ea11080057b"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "dial_red",
+      "label": "dial_red",
+      "cells": [
+        {
+          "id": "dial_red",
+          "target": "dial_red",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/dial_red/000-dial_red.py",
+          "sha256": "5a92a5ed241379b46835cbddd315c787f9b6fa153f0f7bf5925312e81094f6fd"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "left_meter",
+      "label": "left_meter",
+      "cells": [
+        {
+          "id": "left_meter",
+          "target": "left_meter",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/left_meter/000-left_meter.py",
+          "sha256": "12f88f647a7797dc4dbfc45cbe48e9ae87734a3b49a861468c4b3a765146f5ef"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "right_meter",
+      "label": "right_meter",
+      "cells": [
+        {
+          "id": "right_meter",
+          "target": "right_meter",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/right_meter/000-right_meter.py",
+          "sha256": "bc69ac95eb82740768c3748fa98321b5d182291b6682316540ac25751e68d747"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "red_dot",
+      "label": "red_dot",
+      "cells": [
+        {
+          "id": "red_dot",
+          "target": "red_dot",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/red_dot/000-red_dot.py",
+          "sha256": "f64e6b92cc7628f2d663a0b9aa826b2168fdce723c76affb461928c8490e65d1"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "control_trim",
+      "label": "control_trim",
+      "cells": [
+        {
+          "id": "control_trim",
+          "target": "control_trim",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/control_trim/000-control_trim.py",
+          "sha256": "472967ab1bb235abebadd3657d009fdf3a638fb1c2959d49fa7cd0957314a611"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    },
+    {
+      "id": "speaker_mesh",
+      "label": "speaker_mesh",
+      "cells": [
+        {
+          "id": "speaker_mesh",
+          "target": "speaker_mesh",
+          "order": 0,
+          "path": "design/radio-reminder/source/parts/speaker_mesh/000-speaker_mesh.py",
+          "sha256": "8e5452e312ec2636674596bfe6a43cc1fbff5467a3dbf0de9259c61f87dd59fa"
+        }
+      ],
+      "dependencies": [
+        "front_shell"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "rear_screw_0",
+      "target": "front_shell",
+      "label": "后盖螺钉",
+      "material": "steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "89ad62169d7c00f8770c24a1682d4fc91af06280c6b6c70253ee372bf0183989",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_screw_1",
+      "target": "front_shell",
+      "label": "后盖螺钉",
+      "material": "steel",
+      "role": "fastener",
+      "kind": "generated",
+      "shapeHash": "6b570f4a1a6645476254431cb977163c32f790d1befa52199eaa5f42a8abf1af",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "front_shell",
+      "target": "front_shell",
+      "label": "收音机前壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "a88977471fc58b36fe18129a33db2f454c4a973547bb1ebc056f157981b1d901",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "carrier",
+      "target": "imports",
+      "label": "电源键同高横排载板",
+      "kind": "imported",
+      "shapeHash": "5d88c89b34ba62596fa9f34b626836627b1442c5b706f3b2eedf77eec553041a",
+      "transform": {
+        "positionMm": [
+          -100,
+          -0.3,
+          100
+        ],
+        "rotationDeg": [
+          90,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_lid",
+      "target": "rear_lid",
+      "label": "薄型后盖与固定面",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "76fde901dc93d6e44b4a930233c3727cf3a3374aecb64b0c460cf7fe3783b2d7",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "tuner_panel",
+      "target": "tuner_panel",
+      "label": "调谐窗饰板",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "0615ac48a7d77106d63e922a8c7728db131eda62d4e7fc37ad3929759b448a3a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_ring",
+      "target": "left_ring",
+      "label": "左网罩银圈",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "461ea7fbd89ced3b56de81707131be4b09c55925a8648205fdab3ae834db5fb8",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "right_ring",
+      "target": "right_ring",
+      "label": "右网罩银圈",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "aad619524f477b7de6f24c44cb29826f5ea0f4882f68e6cadc3f5726160e2822",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "sound_key",
+      "target": "sound_key",
+      "label": "换音多功能键帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "ca962176b9e9f01756c0056c53e4b8b8dbb06e0a94495ca233e44b176d7c16cd",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "volume_up",
+      "target": "volume_up",
+      "label": "音量加键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "f2c756c86894fa2757e7bd2a898a3ab521395f67ad0dd767008f1b2131c8311a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "volume_down",
+      "target": "volume_down",
+      "label": "音量减键",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "7c4d7c9cddfe21c853f5d8182663d3f964817a5e1e9f622a26fc97aab7ba0759",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "power_key",
+      "target": "power_key",
+      "label": "薄型电源键帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "f518f80c08425008d469610cb32d0f882b702f00a9de49ffed15ecbdd3a9b30e",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "tuner_insert",
+      "target": "tuner_insert",
+      "label": "调谐刻度底片",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "40896ce616aea8bcdd317c004ec0d8a16b3d9412ab963c6efbc50b0694c2fcd9",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial_red",
+      "target": "dial_red",
+      "label": "红色调谐印刷",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "3ac08ecc678e8a7da398487c11d09b5c30a1487a72cc8767b330757da73b2399",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_meter",
+      "target": "left_meter",
+      "label": "电平表装饰",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "f0a53adc2bc8384d8c1e2ba6c961597d07e10a9cc656e44482bb7a671ee2173a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "right_meter",
+      "target": "right_meter",
+      "label": "电平表装饰",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "efeee54aee7f5f8514bd5502cc82cd0b91176928c511f32c92bd8664c595b26c",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "red_dot",
+      "target": "red_dot",
+      "label": "红色标识",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "b9a13a5cc0dade226d2c7d002e85040267bd8bcea1d7044686938cbb44a1c8f8",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "control_trim",
+      "target": "control_trim",
+      "label": "中部银色饰线",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "fe5f47adabd3c67b8999910a213275c48d30381d0bf81a89747adb3590273f77",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "speaker_mesh",
+      "target": "speaker_mesh",
+      "label": "黑色透声布",
+      "material": "nylon",
+      "kind": "generated",
+      "shapeHash": "b21a3a26a0647e3bc287b33a68d2fc954818327071153eac0497c695469163c6",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "carrier",
+      "kind": "step",
+      "path": "design/radio-reminder/source/assets/15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7.step",
+      "sha256": "15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7",
+      "label": "电源键同高横排载板",
+      "provenance": {
+        "sourcePath": "manufacturing/reminder-carrier/releases/bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27/package/assembly.step"
+      }
+    }
+  ],
+  "fits": [],
+  "updatedAt": "2026-11-09T09:50:58.253Z",
+  "parameters": {
+    "front_shell": {
+      "case_width": 60,
+      "case_depth": 17.5,
+      "case_height": 34,
+      "edge_radius": 0.8,
+      "wall": 2.4,
+      "handle_width": 58,
+      "handle_height": 10,
+      "handle_bar": 2.5,
+      "grille_radius": 8.8,
+      "grille_hole": 1.6,
+      "button_gap": 0.25,
+      "carrier_plane_y": -0.3,
+      "power_key_x": 7,
+      "power_key_z": 9,
+      "rear_seam_gap": 0.15,
+      "rear_lap_length": 0.85,
+      "rear_lap_clearance": 0.2,
+      "symmetric_closure_x": 27.4,
+      "symmetric_closure_z": 13.8,
+      "screw_cover_diameter": 4.8,
+      "lower_hook_x": 18,
+      "lower_hook_width": 5,
+      "front_function_key_z": -4,
+      "front_function_key_size": 6.2
+    },
+    "imports": {},
+    "rear_lid": {
+      "service_grip_depth": 0.35,
+      "power_guide_outer_diameter": 6,
+      "xiao_board_width": 17.78,
+      "xiao_board_length": 20.955
+    },
+    "tuner_panel": {
+      "tuner_border": 0.85,
+      "tuner_recess_depth": 0.25
+    },
+    "left_ring": {
+      "left_ring_outer_diameter": 19.8,
+      "left_ring_inner_diameter": 18.1,
+      "left_ring_thickness": 0.7
+    },
+    "right_ring": {
+      "right_ring_outer_diameter": 19.8,
+      "right_ring_inner_diameter": 18.1,
+      "right_ring_thickness": 0.7
+    },
+    "sound_key": {
+      "sound_key_size": 6.2,
+      "sound_key_protrusion": 0.7,
+      "sound_tip_gap": 0.2
+    },
+    "volume_up": {
+      "volume_up_width": 5,
+      "volume_up_depth": 3.5,
+      "volume_up_tip_gap": 0.2
+    },
+    "volume_down": {
+      "volume_down_width": 5,
+      "volume_down_depth": 3.5,
+      "volume_down_tip_gap": 0.2
+    },
+    "power_key": {
+      "power_key_diameter": 5.5,
+      "power_tip_gap": 0.2
+    },
+    "tuner_insert": {
+      "tuner_insert_width": 50,
+      "tuner_insert_height": 3.3,
+      "tuner_insert_thickness": 0.18
+    },
+    "dial_red": {
+      "dial_red_length": 30,
+      "dial_print_thickness": 0.08
+    },
+    "left_meter": {
+      "left_meter_width": 5.8,
+      "left_meter_height": 2.4
+    },
+    "right_meter": {
+      "right_meter_width": 5.8,
+      "right_meter_height": 2.4
+    },
+    "red_dot": {
+      "red_dot_diameter": 2.9,
+      "red_dot_film": 0.1
+    },
+    "control_trim": {
+      "control_trim_width": 13.4,
+      "control_trim_height": 21.5,
+      "control_trim_stroke": 0.65,
+      "control_trim_film": 0.12
+    },
+    "speaker_mesh": {
+      "acoustic_mesh_diameter": 18.4,
+      "acoustic_mesh_thickness": 0.15
+    }
+  }
+}

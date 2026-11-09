@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "artifact_level": "product_kit",
+  "deliverable_intent": "manufacturing_package",
+  "summary": "保留XIAO与390mAh电池，约19mm总厚度、最长边60mm的参考图收音机挂件：载板制作包、接线装配与外壳STEP。",
+  "required_interfaces": [
+    {
+      "id": "hardware_fit",
+      "kind": "internal_fit",
+      "description": "依据已选主控、电池、发声器及按键的机械证据设计固定与空间。",
+      "source": "contract_interface",
+      "required": true
+    },
+    {
+      "id": "user_controls",
+      "kind": "external_access",
+      "description": "后置Type-C和开关机键、前面原下方位置的单个三角换音多功能键、顶部音量加减；无独立确认键。",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "radio_reference",
+      "source": "user_requested",
+      "description": "用户上传的收音机外观参考；单张透视图只定义可见外观，背部及深度由工程设计补齐。",
+      "path": "product/references/uploads/20261109T053335850Z-1-1.png"
+    }
+  ],
+  "assembly_story": {
+    "installation": "家属协助手机授权与配对，挂绳随身携带。",
+    "maintenance": "Type-C 充电；电池及内部接线通过后壳维修。",
+    "user_access": [
+      "背面充电与开关机",
+      "正面单键换音/停止本轮提醒",
+      "顶部音量加减"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "enclosure",
+        "design_id": "radio-reminder",
+        "description": "参考图收音机外壳及控制件，整体最长边不超过 60 mm。",
+        "delivery_target": "manufacturing_handoff",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "hardware_fit",
+          "user_controls"
+        ],
+        "reference_ids": [
+          "radio_reference"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

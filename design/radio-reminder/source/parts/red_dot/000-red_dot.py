@@ -1,0 +1,6 @@
+p=part('front_shell')
+d=param('red_dot_diameter',2.9)
+film=param('red_dot_film',0.1)
+dot=Pos(0,p.front_y-film/2,1.6)*Rot(90,0,0)*Cylinder(d/2,film)
+dot.color=srgb('#c22b43')
+publish('red_dot',dot,'红色标识',material='petg')

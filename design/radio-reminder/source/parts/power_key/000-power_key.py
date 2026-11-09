@@ -1,0 +1,14 @@
+p=part('front_shell')
+head_d=param('power_key_diameter',5.5)
+tip_gap=param('power_tip_gap',0.2)
+rear_face=p.case_depth/2+0.7
+front_face=p.case_depth/2-1.35
+head=Pos(p.power_x,(rear_face+front_face)/2,p.power_z)*Rot(90,0,0)*Cylinder(head_d/2,rear_face-front_face)
+head=fillet(head.edges(),0.25)
+flange_y=p.case_depth/2-1.3
+head+=Pos(p.power_x,flange_y,p.power_z)*Rot(90,0,0)*Cylinder(3.6,0.6)
+a=p.carrier_y+1.635+tip_gap
+head+=Pos(p.power_x,(a+flange_y)/2,p.power_z)*Rot(90,0,0)*Cylinder(1.2,flange_y-a+0.1)
+head-=Pos(p.power_x,rear_face,p.power_z)*Box(0.6,0.5,2.2)
+head.color=srgb('#202124')
+publish('power_key',head,'薄型电源键帽',material='petg')

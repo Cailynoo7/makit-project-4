@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "260828-xiao-nrf52840.pdf",
+      "sha256": "b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7",
+      "bytes": 236331,
+      "addedAt": "2026-11-09T06:08:40.662Z",
+      "share": false
+    },
+    {
+      "file": "carrier-selected-parts.json",
+      "sha256": "7d72dfc43ae96fcfaaede74cce204a4970469932d1c9915a2244f405ed8b1caf",
+      "bytes": 7956,
+      "addedAt": "2026-11-09T06:13:10.602Z",
+      "share": false
+    },
+    {
+      "file": "gt-usb-7096c.pdf",
+      "sha256": "190e12eab4157f8bb3d3473f628f2ca753041ac65f50b09740887b25568ce760",
+      "bytes": 1982124,
+      "addedAt": "2026-11-09T07:27:36.284Z",
+      "share": false
+    },
+    {
+      "file": "hardware-review.md",
+      "sha256": "2501d9ced1fc0c7d7b084654f2fc01051b897941cc2a7e9d898b60a9cc706c81",
+      "bytes": 5935,
+      "addedAt": "2026-11-09T06:07:25.990Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261109T053335850Z-1-1.png",
+      "sha256": "75485f037b55f6c57e410eb9b82ff4914fce8124c4e33b390bf660a277f4216d",
+      "bytes": 77923,
+      "addedAt": "2026-11-09T05:33:35.859Z",
+      "share": false
+    },
+    {
+      "file": "volume-switch-selection.json",
+      "sha256": "258bc989fb04a1403e71e623302332f74ba12ea5a37866884fb4965c98c8faf0",
+      "bytes": 1026,
+      "addedAt": "2026-11-09T06:24:05.339Z",
+      "share": false
+    },
+    {
+      "file": "xiao-mechanical/102010448/bottom.dxf",
+      "sha256": "2d25a42459289617e7f3916bc0c5eadc1f399261cd7b0f2978399aa8fe1640f2",
+      "bytes": 1684993,
+      "addedAt": "2026-11-09T06:12:03.210Z",
+      "share": false
+    },
+    {
+      "file": "xiao-mechanical/102010448/top.dxf",
+      "sha256": "9e7235159715240d3dad2e1ec758c9979eaddc8635cb6cf6f8be5f6db3f3899f",
+      "bytes": 6369863,
+      "addedAt": "2026-11-09T06:12:03.219Z",
+      "share": false
+    },
+    {
+      "file": "xiao-nrf52840-dxf.zip",
+      "sha256": "2924f943284b27b319632aa27c12f8a5d330f1cce18ea46b4ca3cee501660a21",
+      "bytes": 268827,
+      "addedAt": "2026-11-09T06:11:28.625Z",
+      "share": false
+    },
+    {
+      "file": "xiao-nrf52840-v1.2.zip",
+      "sha256": "973a5543514b2a6799fdb658666a803c0694a784f21ef8633debbccd1511ea95",
+      "bytes": 6259390,
+      "addedAt": "2026-11-09T06:58:48.862Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/HEAD",
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "bytes": 23,
+      "addedAt": "2026-11-09T06:58:48.862Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/config",
+      "sha256": "7ea0fd40aa869dc47fb4f590a9e4ac793a68b9800f393b3a7bfcc854a851d092",
+      "bytes": 112,
+      "addedAt": "2026-11-09T06:58:48.863Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/description",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "bytes": 73,
+      "addedAt": "2026-11-09T06:58:48.863Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/hooks/README.sample",
+      "sha256": "7319d7f1803fda2b3416143e426b9ec4c3c3c817c75188b2b82cb3e68ff293ab",
+      "bytes": 177,
+      "addedAt": "2026-11-09T06:58:48.863Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/index",
+      "sha256": "6d1ebb1dd9be207d1d05b559f8d93cd709752d8225c51c2e9ced3c317efe4e1b",
+      "bytes": 3240,
+      "addedAt": "2026-11-09T06:58:48.864Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/info/exclude",
+      "sha256": "fdb7dc7be17051c3c5067cdf2b8fdf2ca3a8daf2b5e91f34c6ce1ff3a94c5f6a",
+      "bytes": 113,
+      "addedAt": "2026-11-09T06:58:48.864Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/logs/HEAD",
+      "sha256": "2f821aa7c26cdfd409d8061fd1f046f90418ec664683fc7657ef07ca2d23f54e",
+      "bytes": 2937,
+      "addedAt": "2026-11-09T06:58:48.864Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/logs/refs/heads/master",
+      "sha256": "2f821aa7c26cdfd409d8061fd1f046f90418ec664683fc7657ef07ca2d23f54e",
+      "bytes": 2937,
+      "addedAt": "2026-11-09T06:58:48.864Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/03/fd57eb4564b0e055de3a7bf24a406e5dbcd57f",
+      "sha256": "5899c6ac7ef048365398235812862fc7bd4a45255fc310e38aee12888eae08f1",
+      "bytes": 486,
+      "addedAt": "2026-11-09T06:58:48.865Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/08/f8d93f5e8b0bcae0de43af5882028ed4c67430",
+      "sha256": "3c81631b68e72d44d2f4614e05edb25ee3702cdf3c6093e3d9b14a9e1525eb29",
+      "bytes": 490,
+      "addedAt": "2026-11-09T06:58:48.865Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/0f/4834bf9492849850604a617f60a3936ec92f73",
+      "sha256": "c6519e67161e99d616964310840a9f23767ecd91131fa5aafd081304522869f8",
+      "bytes": 59925,
+      "addedAt": "2026-11-09T06:58:48.865Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/15/4a390ef387d0927e9eb2d08ba52a800d08e77a",
+      "sha256": "e8842cc8ca01328bc9221a0c711ed21c1146676b4e6ade1a333eb14c2bb98517",
+      "bytes": 404,
+      "addedAt": "2026-11-09T06:58:48.865Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/17/d5b2aa6ffedde3f982e353a7b0f2b2ff01a1fc",
+      "sha256": "361225a50443d874175b9a81766de2dc066f2fd358d5959e27916f5045a56973",
+      "bytes": 109495,
+      "addedAt": "2026-11-09T06:58:48.866Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/18/1326217d72532c263f1ee85947a882bddc0542",
+      "sha256": "92e7846e1f77228794cd9001d119706385d414e1a0223c57c33c5f9e1990b952",
+      "bytes": 321616,
+      "addedAt": "2026-11-09T06:58:48.866Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/19/9133c3000d963e3995e97811e0f1bc5472f936",
+      "sha256": "b592b2ebe7ba60b1deec17f876f0f25a492f7a1e4500488c06a01b2c47b8c49f",
+      "bytes": 103,
+      "addedAt": "2026-11-09T06:58:48.866Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/31/0b17d25c9220186f15f9743302bab09f6db534",
+      "sha256": "f2344485fa96108962fe45c70679115e0fd78017463b6f9b36752e3dfcc5bd89",
+      "bytes": 318,
+      "addedAt": "2026-11-09T06:58:48.867Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/38/19caf10898bae13c85589f98d2cd88947db789",
+      "sha256": "15aacbb14d8fdb1b72c661ce961f951c238e78f41205f1300bf84fc212ef3a58",
+      "bytes": 116830,
+      "addedAt": "2026-11-09T06:58:48.867Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/3d/1ce5070583e1cfe1f0fc38eaba16dfd044e7e1",
+      "sha256": "e008530ed96ffdaa9acbe491f5adb933159f1edc081c97c8123de28e15b7917d",
+      "bytes": 912,
+      "addedAt": "2026-11-09T06:58:48.867Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/3d/6abaf56941ade797bc6b437e87548301c3ce9c",
+      "sha256": "d63d1a85593c725c8328113d62daf3577c1011226ba7e8bb9f6739fcfa8e62b6",
+      "bytes": 243,
+      "addedAt": "2026-11-09T06:58:48.867Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/3e/8da76d206a6fa4361934f52f56e91e302b4e81",
+      "sha256": "1f68b5d8cc6a5dd441fbd99dfa913ad91fddfa7b2eebc58eba0e5f4a50c26d5a",
+      "bytes": 194,
+      "addedAt": "2026-11-09T06:58:48.868Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/46/33ad9f41f477ee24a76c098337664e2ff04e6f",
+      "sha256": "5ae24ead393e56ba04e6098b306c21c3b5eafae55407e776c1e3016a73d21689",
+      "bytes": 493,
+      "addedAt": "2026-11-09T06:58:48.868Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/47/d783681757704a65c54bed3eaa8fdc49e5ea24",
+      "sha256": "ce3b7991a853ce3589fda2dd6cc1e8a33d7ca4c23de8d0b0b66ba94483c07ce5",
+      "bytes": 123,
+      "addedAt": "2026-11-09T06:58:48.868Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/4b/86dbb514a16280b4536d67214b46ef084299ec",
+      "sha256": "04650185bb9f4abfdfe244edd56c49d2bf33f30635469b5cba5dd99d8a121f93",
+      "bytes": 491,
+      "addedAt": "2026-11-09T06:58:48.868Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/56/8b1b16fba8882f75dcee3036d575d9c8a9b621",
+      "sha256": "83ddd8fca7d912b4251e12152e76f0ea2a2a2d9c9daca428214ef1bb77e78eae",
+      "bytes": 492,
+      "addedAt": "2026-11-09T06:58:48.868Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/59/59241f1a123a9b1ab1908b56aeb34edc5f741f",
+      "sha256": "79259dd5fc81996415465eb39900b56092b2bf921373afb6d9102be629198fb3",
+      "bytes": 489,
+      "addedAt": "2026-11-09T06:58:48.869Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/67/cd1c5145928c2f2055965c0b80c824651f1c2e",
+      "sha256": "825d5efeffee6f6760334d4527bcedfbb45deb9ebc6ce29a10d99f827eb67af2",
+      "bytes": 338,
+      "addedAt": "2026-11-09T06:58:48.872Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/69/1fc4461b6b5fc454e5e7ed07cc53a7ac66cf27",
+      "sha256": "807866e5f62d8b7d8e3e72575f5cef9ea96bc9c6294e33fb495c203a70658e5b",
+      "bytes": 436,
+      "addedAt": "2026-11-09T06:58:48.872Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/69/d226b38919acf6e83cf655fffc15566cc777cd",
+      "sha256": "3c3672d6f2dbf61ea05a8d593448a4cb9a97a304d98147ec46e26d8dadee4d06",
+      "bytes": 107926,
+      "addedAt": "2026-11-09T06:58:48.872Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/73/214add7e6d567e30ac3a269bf0e87d6ed34c43",
+      "sha256": "5d39afacf28db6dd0df98f94eba82a6f920550b16201936b97510ed3ab97bb64",
+      "bytes": 4230,
+      "addedAt": "2026-11-09T06:58:48.873Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/78/82dfddedb1cac548d471af1fe80fe0d57672f0",
+      "sha256": "ec465fe6c46c9961a166b9adc98c9be6b561443ada59ed54f52d52e3d76213c8",
+      "bytes": 488,
+      "addedAt": "2026-11-09T06:58:48.873Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/7d/ff0aef1d1d7a1286d045744a494e35359edf95",
+      "sha256": "9141c978ff67c79d9c2234c3996d4e1cee582358dd87212e34cdd17dc900185c",
+      "bytes": 381,
+      "addedAt": "2026-11-09T06:58:48.873Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/7f/a73c51e35ff87adddd3ebcb609d93ae2bfe8b5",
+      "sha256": "ec8c533a5416f90b69196b99d380248b8ab49d4afe6f0456c0e80add4f7518fb",
+      "bytes": 4149,
+      "addedAt": "2026-11-09T06:58:48.873Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/81/968f248b3ee87542db54958bba3919dbe87769",
+      "sha256": "74e9b4db396cc6e4d97582158cca992fdadf377a942c213ea9d83d5ad2c0c7d9",
+      "bytes": 114981,
+      "addedAt": "2026-11-09T06:58:48.873Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/84/333c8d48e7e1213f7a75421917c014b631101d",
+      "sha256": "6b090c46044639b82c93ea54c4ce39dfa8f181bc3d88b1d858d32fdfed04d1a6",
+      "bytes": 492,
+      "addedAt": "2026-11-09T06:58:48.874Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/86/80d2bbeeab4baa8894b1367cdb9cc1e3d66e9e",
+      "sha256": "c9e5b58f6597182b0f78d2aa58c7f98252b9be537889fe311aee96a914082003",
+      "bytes": 837,
+      "addedAt": "2026-11-09T06:58:48.874Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/88/2c0fa41732550cacb390fb767dd7b59e5ffcb4",
+      "sha256": "6afafd7e897b7c432efeb1a2b418828544ea17d7fe4ddaf3220e21d2c39ec1a2",
+      "bytes": 59309,
+      "addedAt": "2026-11-09T06:58:48.874Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/93/59e0919b7f5b4d2b4158930dde2cee2fddf7c2",
+      "sha256": "df814f9d84023cf829051f6c79adcbc16d2d71cf8390abafe087f6eb7353fa82",
+      "bytes": 108043,
+      "addedAt": "2026-11-09T06:58:48.874Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/94/0b09c7eee4831a69f65eecce5b872fd52a4c42",
+      "sha256": "ffa4dcf60bce9db6d0f7cfe9d6e98c49643aeaf21dae4bfd022099a0135d00f0",
+      "bytes": 450,
+      "addedAt": "2026-11-09T06:58:48.875Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/94/2870ef87289c10c25df5c773c0d37bd02bff72",
+      "sha256": "9b28e5d2c7f2365a7f3da7aa289089a85cb3ad442900a0281001e79f1ae4aee2",
+      "bytes": 388,
+      "addedAt": "2026-11-09T06:58:48.875Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/9d/eedfb0c4edadead6b2d791804484b9252f003f",
+      "sha256": "af16c8786fb795914d83717523db376381cc90949cfa82d71c2bd2386f11b586",
+      "bytes": 16793,
+      "addedAt": "2026-11-09T06:58:48.875Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/a0/068951845d36ea380f95481f13211c638e607e",
+      "sha256": "0ad2710e660b387daa97f0b223734d3c85a404f67ffce95b673a3c0ee3b54771",
+      "bytes": 206,
+      "addedAt": "2026-11-09T06:58:48.875Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/a4/5bb9443b4004217e2eff933d1f5dccb58b736f",
+      "sha256": "3cc96c5279ae88f262be66dd3124a302911d9410db05c3c73239b219829c2cc1",
+      "bytes": 938,
+      "addedAt": "2026-11-09T06:58:48.875Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/a6/af01995dec9b591c9c5aa42c34c47bc29e42a5",
+      "sha256": "5b7a09e60210e1a91899cbdf34d1ad25c9c271694b2347bb6bf03013e5f1e02b",
+      "bytes": 491,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/ac/970a3caa7be06a3dfa23df04a9fc1dff786c1b",
+      "sha256": "331c9ce79bb0b9824aa465bfb99b7396045604f7c8864cbe0c7986868f66fbc9",
+      "bytes": 491,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/b3/5293ecc15ff8b92bada7562674ada31c9cf7bc",
+      "sha256": "65492fbab12fe492bf11a621e3f7f348490ee0036cfb17bb984d083a42179d4f",
+      "bytes": 494,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/ba/3b55022d13c386fa306dc7d10cba02558d091e",
+      "sha256": "50f55440003eb46095230ffbe642f4c57a758b0fe6a9148f3b2f9f02e3c8072e",
+      "bytes": 219,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/c0/b2bcc902f4dfbf6b11e9b66a358ea5e425a8e4",
+      "sha256": "f3553f1ba538d65cf39f0e7cdc6fb2517f716415a345d886b317465d29190977",
+      "bytes": 58,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/c3/1323d4cb6ab723304f5d6a21711aa56a60c1f3",
+      "sha256": "b01a9cbb83c5b617bff30f8cf189e8bfae7cb7d8d975722f57b63672de69f6f4",
+      "bytes": 486,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/c5/cbbf9cdcc9683c411dff2c449096043f1d9678",
+      "sha256": "ac372130c7e847841f5c5bc9f45791f641a1151d3845004fcb668050b3d1f742",
+      "bytes": 406,
+      "addedAt": "2026-11-09T06:58:48.876Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/cd/b41abfa4a87562b8ab9241d0a6df1b2c8c35d6",
+      "sha256": "8adc008e9caccc6795f24c436afb8d52a77f9e3a6b1c614617ea0039b42501f6",
+      "bytes": 321496,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/da/12edbfb2bf91d45734efbb83101c2eeae24fe2",
+      "sha256": "62df48c9c4559a41a7da154c19e44c890e47fcf7eee660ab0bd6b3ff18c0a2d7",
+      "bytes": 242,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/da/d1af230b24d1dbef8c053ae6b5314140228557",
+      "sha256": "14691cbad3efead7e299c253b555b9ad3bfb21e33b6045baeec07f0aad9859e5",
+      "bytes": 495,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/db/5867d3fa803eccd74cc15a8cad6e44b5599ebe",
+      "sha256": "a84de41857aeb9916d597ef9228d8de7c4cc185731d603a4ca0ffa50e8c51ab9",
+      "bytes": 494,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/e1/3eec5f551626fbacf8e778a0d72df5e9d4f581",
+      "sha256": "587296b3e403a70a8732c847c7b9d309ee724c5bdc73a108d5ad04422f5c24c1",
+      "bytes": 405,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/e6/55f7e6af852d8e870939132d2ad1eb4a336bbb",
+      "sha256": "dbbeaacc8398deae0e1d76b5ea51028eec668a81b99e885c566c9bc335731580",
+      "bytes": 3895,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/e7/ee1af5521104a02d279db2cb6fdcb3e92510d4",
+      "sha256": "e7fa30ac5d184354e3347fc5999bc2553c6b0f53fc3cffeebf815ef07f873576",
+      "bytes": 268,
+      "addedAt": "2026-11-09T06:58:48.877Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/objects/f7/699587e2d02699d3cbf02de99cc1488344c8ec",
+      "sha256": "76112cf58e1c5e9fa47f2fe685b6a85b5d0427c1dbd82e7acee7b2dc96cc71cd",
+      "bytes": 166805,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/heads/master",
+      "sha256": "752810db55e65335445673cb8804822a458537758adf0e5b8245c19ab71381a3",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Last_Save_pcb",
+      "sha256": "752810db55e65335445673cb8804822a458537758adf0e5b8245c19ab71381a3",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Last_Save_project",
+      "sha256": "f9b7485699a037e24a0a48a0fe8971d85c4c319c6a74be251edc24b8c45defd7",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Last_Save_sch",
+      "sha256": "9d41fc271968b470aed122c6ae2c97485dc97dcad7b2e54295eb10586a44a375",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_pcb_1",
+      "sha256": "752810db55e65335445673cb8804822a458537758adf0e5b8245c19ab71381a3",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_pcb_2",
+      "sha256": "752810db55e65335445673cb8804822a458537758adf0e5b8245c19ab71381a3",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_pcb_3",
+      "sha256": "752810db55e65335445673cb8804822a458537758adf0e5b8245c19ab71381a3",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_project_1",
+      "sha256": "f9b7485699a037e24a0a48a0fe8971d85c4c319c6a74be251edc24b8c45defd7",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_sch_1",
+      "sha256": "b06eeef94c4fd9900fe49d1383fcb0baa4d77d64a86ac842da3ce18ede89c37b",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.878Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_sch_2",
+      "sha256": "b0bfbfece746f9c1bbd4b3965e83e7d498920e4a09a5d53af9e12b5eb95f1ab1",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_sch_3",
+      "sha256": "ac4fba82c2534fec7b9bcd7e4321446650ca0dc2f5b9614a77712cee30b46b98",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_sch_4",
+      "sha256": "03d399b8bdeadb991811b963091844fb6a114aa9e91997fa5fe76db2ceabfdc7",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.git/refs/tags/Save_sch_5",
+      "sha256": "9d41fc271968b470aed122c6ae2c97485dc97dcad7b2e54295eb10586a44a375",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.gitignore",
+      "sha256": "bd0469c21613073b556f6900dce9505091a453bab43bad88870c1d68d51d6338",
+      "bytes": 38,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/HEAD",
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "bytes": 23,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/config",
+      "sha256": "7ea0fd40aa869dc47fb4f590a9e4ac793a68b9800f393b3a7bfcc854a851d092",
+      "bytes": 112,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/description",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "bytes": 73,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/hooks/README.sample",
+      "sha256": "7319d7f1803fda2b3416143e426b9ec4c3c3c817c75188b2b82cb3e68ff293ab",
+      "bytes": 177,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/index",
+      "sha256": "140885fd9d4ad111b89c93f65bec8a6dce51a6d143282ac56010e9d51a207965",
+      "bytes": 361,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/info/exclude",
+      "sha256": "fdb7dc7be17051c3c5067cdf2b8fdf2ca3a8daf2b5e91f34c6ce1ff3a94c5f6a",
+      "bytes": 113,
+      "addedAt": "2026-11-09T06:58:48.879Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/logs/HEAD",
+      "sha256": "6c337f39df5a4d61b1723b33926275e24742f6e0694171785bd3046814f1bfe9",
+      "bytes": 309,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/logs/refs/heads/master",
+      "sha256": "6c337f39df5a4d61b1723b33926275e24742f6e0694171785bd3046814f1bfe9",
+      "bytes": 309,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/objects/17/d5b2aa6ffedde3f982e353a7b0f2b2ff01a1fc",
+      "sha256": "361225a50443d874175b9a81766de2dc066f2fd358d5959e27916f5045a56973",
+      "bytes": 109495,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/objects/76/335099e3e5f071bb99ae72bcbfc0f04568875b",
+      "sha256": "805ee746269890bdf6f08d866ebbec55efc0f1448789a629eefd0e086dbcef2e",
+      "bytes": 221,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/objects/93/59e0919b7f5b4d2b4158930dde2cee2fddf7c2",
+      "sha256": "df814f9d84023cf829051f6c79adcbc16d2d71cf8390abafe087f6eb7353fa82",
+      "bytes": 108043,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/objects/e0/b5ad431eb32af15a0232cf3b930714cd2c4a50",
+      "sha256": "6778e6b9815862b9d2d104100240c57a83b28cbc332124dd2146ef1209266773",
+      "bytes": 168,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/objects/f7/699587e2d02699d3cbf02de99cc1488344c8ec",
+      "sha256": "76112cf58e1c5e9fa47f2fe685b6a85b5d0427c1dbd82e7acee7b2dc96cc71cd",
+      "bytes": 166805,
+      "addedAt": "2026-11-09T06:58:48.880Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/refs/heads/master",
+      "sha256": "f462e0dd439738ff5584323522448dadcbf923a8ef6ba85586703f0311287ec1",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/refs/tags/Last_Save_project",
+      "sha256": "f462e0dd439738ff5584323522448dadcbf923a8ef6ba85586703f0311287ec1",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.git/refs/tags/Save_project_1",
+      "sha256": "f462e0dd439738ff5584323522448dadcbf923a8ef6ba85586703f0311287ec1",
+      "bytes": 41,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/.gitignore",
+      "sha256": "bd0469c21613073b556f6900dce9505091a453bab43bad88870c1d68d51d6338",
+      "bytes": 38,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/.history/README.txt",
+      "sha256": "15b177287f6d16d6517fbc6a27d7124d206fc05eed3dec20ae0b524fe2955c35",
+      "bytes": 569,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/01 Descriptions.kicad_sch",
+      "sha256": "8d1cc562037fcc875e4a7fc221ae7cf27df35bc804b993a9d983d71acd5c251a",
+      "bytes": 153886,
+      "addedAt": "2026-11-09T06:58:48.881Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/02 XIAO Header & nRF52840.kicad_sch",
+      "sha256": "2606f08c189a34e4d47e5b225ef85ef7320123ba4c68be551e6564114f595766",
+      "bytes": 604095,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/README.txt",
+      "sha256": "15b177287f6d16d6517fbc6a27d7124d206fc05eed3dec20ae0b524fe2955c35",
+      "bytes": 569,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/Seeed Studio XIAO nRF52840 v1.2.kicad_sch",
+      "sha256": "33e838095fed4b66ed43fc3083fb063828f0281923afc26f0bf55dbe63639898",
+      "bytes": 144589,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/logs/mcp-agent-20260828_160114.jsonl",
+      "sha256": "fd430a65b45b490629e6ff04b0135776fbc3652afd4b08c2951e0f006952ef06",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/.history/logs/mcp-agent-20260828_160819.jsonl",
+      "sha256": "0e369edf6b7d0821927918114be13b35884bd41f8babb99d526a6b3725ed30b0",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/01 Descriptions.kicad_sch",
+      "sha256": "8d1cc562037fcc875e4a7fc221ae7cf27df35bc804b993a9d983d71acd5c251a",
+      "bytes": 153886,
+      "addedAt": "2026-11-09T06:58:48.882Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/02 XIAO Header & nRF52840.kicad_sch",
+      "sha256": "2606f08c189a34e4d47e5b225ef85ef7320123ba4c68be551e6564114f595766",
+      "bytes": 604095,
+      "addedAt": "2026-11-09T06:58:48.883Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/260828_XIAO_nRF52840.pdf",
+      "sha256": "b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7",
+      "bytes": 236331,
+      "addedAt": "2026-11-09T06:58:48.883Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.1-backups/Seeed Studio XIAO nRF52840 v1.1-2026-08-28_160241.zip",
+      "sha256": "c3e65a0ba151f7547b320d4397ab6102a879465162ec867a15c84bebd7ae6742",
+      "bytes": 1010800,
+      "addedAt": "2026-11-09T06:58:48.883Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.1-backups/Seeed Studio XIAO nRF52840 v1.1-2026-08-28_161245.zip",
+      "sha256": "74901d1dc2d86d16352838e91d45e65bd296018b821f35fcc9b432705c440b56",
+      "bytes": 1011563,
+      "addedAt": "2026-11-09T06:58:48.884Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.1-eagle-import.kicad_sym",
+      "sha256": "9258c122ad1bb681d657181f9608ef8b735a401cf1201ab2df5d303684edb1b3",
+      "bytes": 309862,
+      "addedAt": "2026-11-09T06:58:48.884Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2-backups/Seeed Studio XIAO nRF52840 v1.2-2026-08-28_162124.zip",
+      "sha256": "ec2a59cd194144be6b4e64b8cc5229efcbbac768b1a0f5a825147e22355386dc",
+      "bytes": 1006404,
+      "addedAt": "2026-11-09T06:58:48.885Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2.kicad_dru",
+      "sha256": "cf116ef896515fdf400f1486454c350d6793f44bf8a974558aee4208e1cb0296",
+      "bytes": 137,
+      "addedAt": "2026-11-09T06:58:48.885Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2.kicad_pcb",
+      "sha256": "4d0a45f2427ba6750d1017441a266375ef59ea2088825e4dc96eeb507a75e167",
+      "bytes": 1515300,
+      "addedAt": "2026-11-09T06:58:48.886Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2.kicad_prl",
+      "sha256": "c8b477d93d748fd0907a777bb18c4483344fdad4caff4e49abffeb1736711e29",
+      "bytes": 2598,
+      "addedAt": "2026-11-09T06:58:48.886Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2.kicad_pro",
+      "sha256": "f9b58af7ce5e7dc88dcbcd5797f73e690e15633be0ecc4a7db3ef7925dee4567",
+      "bytes": 16752,
+      "addedAt": "2026-11-09T06:58:48.886Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/Seeed Studio XIAO nRF52840 v1.2.kicad_sch",
+      "sha256": "33e838095fed4b66ed43fc3083fb063828f0281923afc26f0bf55dbe63639898",
+      "bytes": 144589,
+      "addedAt": "2026-11-09T06:58:48.886Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/fp-info-cache",
+      "sha256": "4dfabd19f140fef9e9454d9e725bb7cb57b3d8316206415e83c95f5c5f577e18",
+      "bytes": 57214,
+      "addedAt": "2026-11-09T06:58:48.886Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_142607.jsonl",
+      "sha256": "3d0fa072f817c88b7a7337c7559ca884f50e44502c4fb9a4e77cef53d25b19b0",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_142610.jsonl",
+      "sha256": "26d5aff26507ebd4e862c0f10a503e83981f05f59e50173c34141fe0d2b7cf3f",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160125.jsonl",
+      "sha256": "af407ebaa6a73a66002001f0f4335881025b6b932a73315bedd0a428cc2ae2c1",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160135.jsonl",
+      "sha256": "d28af7c189b59278fa55ab05b75886273349a68af1d519fe95b7f6466a35273c",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160152.jsonl",
+      "sha256": "e4fb0790aeea81dbd52a40a3ed479f7211384cc736e96e4735e45f1e0586108b",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160205.jsonl",
+      "sha256": "238a85bf1052638fcfe5207735e50270fe330db39a0aa79544b79bbd91a62835",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160453.jsonl",
+      "sha256": "4aff8ec4043fe5fdab9cebc8a8b2489452d6098f7d1f0dbd78633e4e7ca55ca8",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160515.jsonl",
+      "sha256": "0c6365cc2b21382b968e0a2f60d911ace30bdca58e404a941e8f3ee7cd598e8b",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160532.jsonl",
+      "sha256": "d6060515052471ef430a7d54ff880ff954370d286aec957389c2b472f7619fd5",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.887Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160643.jsonl",
+      "sha256": "284947d28506c5821b6a0d046c66c6eaa7918d78f1f197502d7692bf5266d5cf",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160740.jsonl",
+      "sha256": "2dafb933c18fc415ee5fb9a2d52dfd212c5ae2e5878e09fb7ebb9afce22d1233",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_160829.jsonl",
+      "sha256": "94e66ad942632433dd6d04325eb62ee6bd7a88e4b1da257de610143c39d6053b",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161027.jsonl",
+      "sha256": "4487668f05073a238a75eb19998d74e738a2a0f91393e68baf29e45c8b4807ec",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161049.jsonl",
+      "sha256": "49ac896ce40561b11b451d4f775f07f870b436d1a4f4156598ade78caab65fb3",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161533.jsonl",
+      "sha256": "aa8d774b901bd4c8a07e88e8e321f4ccb31d2193f5513177f21d314a8d4ffde5",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161717.jsonl",
+      "sha256": "980797f25b889cfaf3845a33d3049ae5e9cd32c928fda9ea54833f7bebe79e47",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161918.jsonl",
+      "sha256": "907269b5dd6b59dcb7409c2f13d41b5e10c140233ee0c6e72883ad84deaacafb",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.888Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161926.jsonl",
+      "sha256": "d5eb25c378fbc6b7095e02574a8295a52ef00a0242a2f8b6b78151eb13e184af",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_161942.jsonl",
+      "sha256": "f3e43041d993b599262fa76e7d33755864fc96e0accc7421cd59413440980ef7",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_162145.jsonl",
+      "sha256": "12a86e93c648ef348c156baa879bd4643835be9f0b58f445a7803ecf86c218f4",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260828_162152.jsonl",
+      "sha256": "87944402e1b1d0bd19ef9eb4148a1649499efd4dd6fd9938c4bab1ac66f65de7",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260901_135938.jsonl",
+      "sha256": "bd9e7efcf8b8d7a08152f3ca4ef699411c05e6c7b6d1d77dac6c6d62395c761d",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    },
+    {
+      "file": "xiao-v1.2/260828_Seeed Studio XIAO nRF52840 v1.2/logs/mcp-agent-20260901_140324.jsonl",
+      "sha256": "3bf2244a5fe710e7f45e602231e5372b2ef972e5c7f23206ba4c13e01cfb6517",
+      "bytes": 1457,
+      "addedAt": "2026-11-09T06:58:48.889Z",
+      "share": false
+    }
+  ]
+}

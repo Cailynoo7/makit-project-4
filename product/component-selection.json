@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "selected_components": [
+    {
+      "id": "main_controller",
+      "role": "BLE 主控",
+      "name": "Seeed Studio XIAO nRF52840 Series",
+      "manufacturer": "Seeed Studio",
+      "part_number": "XIAO nRF52840",
+      "platform_ref": "seeed/xiao-ble",
+      "quantity": 1,
+      "source": "default",
+      "description": "基础版，非 Sense/Plus；板尺寸 21 × 17.8 mm。",
+      "datasheet_url": "https://wiki.seeedstudio.com/XIAO_BLE/",
+      "selection_reason": "轻量 Android App 处理手机事件，板端承担 BLE 与提示控制；小尺寸、板载 Type-C 和充电管理适合挂件。",
+      "part_identity": "7a4894e77cdc6eb8"
+    },
+    {
+      "id": "audio_amplifier",
+      "role": "单声道音频功放",
+      "name": "PAM8302AASCR",
+      "manufacturer": "DIODES(美台)",
+      "mpn": "PAM8302AASCR",
+      "part_number": "PAM8302AASCR",
+      "lcsc_code": "C113367",
+      "quantity": 1,
+      "supplier": "LCSC / 嘉立创",
+      "stock": 8337,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/114602.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20230810/52852F39DA29CF93A1E8F68F81017496.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20250911/7007FCD8F8CA9F35A08A62187AF9166F.jpg",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "description": "2.5W单声道D类音频功率放大器",
+      "jlc_smt_library": "extended",
+      "selection_reason": "单节锂电电压覆盖2.0–5.5V；shutdown <=1µA，免输出功率电感，支持模拟提示音；本次同器件检索没有Basic选项。MSOP-8有现货，Extended装配费用待制造报价。",
+      "part_identity": "a0eac0e0783ea7ac",
+      "designators": [
+        "U_AMP"
+      ]
+    },
+    {
+      "id": "speaker",
+      "role": "扬声器",
+      "name": "HDK-1804AA-1W",
+      "manufacturer": "Dragonstate(华龙)",
+      "mpn": "HDK-1804AA-1W",
+      "part_number": "HDK-1804AA-1W",
+      "lcsc_code": "C18221550",
+      "quantity": 1,
+      "supplier": "LCSC / 嘉立创",
+      "stock": 411,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/19402723.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20231012/5599EDEB300A326DE981CF06FE959172.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20231023/D3906AA5DC241ACB368DB46003C14D7F.jpg",
+      "assembly": {
+        "method": "not_smt",
+        "population": "not_mounted"
+      },
+      "description": "扬声器",
+      "selection_reason": "18mm圆形引线扬声器，可置于参考图左侧网罩内；4Ω、额定0.8W，须限制输入且不以最大功放输出直接驱动。",
+      "part_identity": "90b160258d1aff6b"
+    },
+    {
+      "id": "face_keys",
+      "role": "正面多功能换音键及背面电源轻触键",
+      "name": "TS-1187A-B-A-B",
+      "manufacturer": "XKB Connection(中国星坤)",
+      "mpn": "TS-1187A-B-A-B",
+      "part_number": "TS-1187A-B-A-B",
+      "lcsc_code": "C318884",
+      "quantity": 2,
+      "supplier": "LCSC / 嘉立创",
+      "stock": 852338,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/299976.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20200227/C318890_053E50208A88A7BA1965D8746000774E.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20230108/88172F1E1FCBE40FF10527789D18E309.jpg",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "description": "5.1*5.1*1.5mm 立贴 轻触开关",
+      "jlc_smt_library": "basic",
+      "selection_reason": "正面仅1颗换音/停止复用键，移至原确认键中心(0,-4)；背面电源1颗；同一已核验TS-1187A-B-A-B封装，删除SW_ACK。",
+      "part_identity": "650c1eefa4fc2d60",
+      "designators": [
+        "SW_SOUND",
+        "SW_PWR"
+      ]
+    },
+    {
+      "id": "battery",
+      "role": "带保护板锂电池",
+      "name": "FLY.502728.390",
+      "manufacturer": "FLYOUNG(远阳)",
+      "mpn": "FLY.502728.390",
+      "part_number": "FLY.502728.390",
+      "lcsc_code": "C5154896",
+      "quantity": 1,
+      "supplier": "LCSC / 嘉立创",
+      "stock": 11,
+      "source": "user",
+      "product_url": "https://item.szlcsc.com/5783013.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20220914/26DADB1697C2AEB7516680D8C536C975.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20230105/5BCDD7657F4DBDBD31D85CDD4DE336D1.jpg",
+      "assembly": {
+        "method": "not_smt",
+        "population": "not_mounted"
+      },
+      "description": "FLYOUNG(远阳) 聚合物锂电池 3.7V 390mAh 1个",
+      "selection_reason": "用户选择远阳390mAh带PCM成品；成品最大30.5×28×5.3 mm，按厂家第12页出线版本采购，国内立创C5154896。",
+      "part_identity": "e8d779fb74276c7a"
+    },
+    {
+      "id": "volume_keys",
+      "role": "顶部侧按音量键",
+      "name": "TS24CA",
+      "manufacturer": "SHOU HAN(首韩)",
+      "mpn": "TS24CA",
+      "part_number": "TS24CA",
+      "lcsc_code": "C393942",
+      "quantity": 2,
+      "designators": [
+        "SW_UP",
+        "SW_DOWN"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 424739,
+      "source": "default",
+      "product_url": "https://item.szlcsc.com/372554.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20250627/84CD38276554A1E56A2B8104F1C5161E.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20250824/9F3719C0BFD5A071020BD258ADA3305B.jpg",
+      "description": "4.55*1.8*3.5mm 卧贴 轻触开关",
+      "package": "SMD,4.6x1.8mm",
+      "jlc_smt_library": "extended",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "用户授权改选；采用SHOU HAN TS24CA C393942侧按键，厂家机械图与精确供应商封装已核对，顶部音量加减位置及功能保持。",
+      "part_identity": "0a1b12ca973e74ab"
+    },
+    {
+      "id": "r10k",
+      "role": "10k滤波、衰减及默认电平",
+      "name": "0603WAF1002T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "mpn": "0603WAF1002T5E",
+      "part_number": "0603WAF1002T5E",
+      "lcsc_code": "C25804",
+      "quantity": 5,
+      "designators": [
+        "R_F1",
+        "R_F2",
+        "R_ATT",
+        "R_SD",
+        "R_PWR"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 47162320,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/26547.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20250618/A8DD5FF53E8BE3A05CC533FBBE26BF71.jpg",
+      "description": "厚膜电阻 10kΩ ±1% 100mW",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "10k滤波、衰减及默认电平；采用Basic库。",
+      "part_identity": "521357339b7b313a"
+    },
+    {
+      "id": "r1k",
+      "role": "1k音频衰减下臂",
+      "name": "0603WAF1001T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "mpn": "0603WAF1001T5E",
+      "part_number": "0603WAF1001T5E",
+      "lcsc_code": "C21190",
+      "quantity": 1,
+      "designators": [
+        "R_DIV"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 26554841,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/21904.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20221228/6165AACA9F1A557BC3C736378F140C8D.jpg",
+      "description": "厚膜电阻 1kΩ ±1% 100mW",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "1k音频衰减下臂；采用Basic库。",
+      "part_identity": "d8afc9e16fd136af"
+    },
+    {
+      "id": "c10n",
+      "role": "10nF双级音频滤波",
+      "name": "0603B103K500NT",
+      "manufacturer": "FH(风华)",
+      "mpn": "0603B103K500NT",
+      "part_number": "0603B103K500NT",
+      "lcsc_code": "C57112",
+      "quantity": 2,
+      "designators": [
+        "C_F1",
+        "C_F2"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 5786566,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/58143.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20260730/02F3503A6D76391150EDFB346112EFA5.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20251028/C55948F0328370812731751A4634B270.jpg",
+      "description": "10nF ±10% 50V",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "10nF双级音频滤波；采用Basic库。",
+      "part_identity": "b8fb35db15820360"
+    },
+    {
+      "id": "c100n",
+      "role": "100nF输入交流耦合",
+      "name": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO(国巨)",
+      "mpn": "CC0603KRX7R9BB104",
+      "part_number": "CC0603KRX7R9BB104",
+      "lcsc_code": "C14663",
+      "quantity": 2,
+      "designators": [
+        "C_INP",
+        "C_INN"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 33504541,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/15331.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20250214/096C4C206003071F5D32E5F0D8E7F8DF.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20250715/565F44E7FCAE51D13767AECBC328360D.jpg",
+      "description": "100nF ±10% 50V",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "100nF输入交流耦合；采用Basic库。",
+      "part_identity": "793924b009c093b0"
+    },
+    {
+      "id": "c1u",
+      "role": "1uF功放高频旁路",
+      "name": "CL10A105KB8NNNC",
+      "manufacturer": "SAMSUNG(三星)",
+      "mpn": "CL10A105KB8NNNC",
+      "part_number": "CL10A105KB8NNNC",
+      "lcsc_code": "C15849",
+      "quantity": 1,
+      "designators": [
+        "C_HF"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 12795278,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/16531.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20160218/1457707763339.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20221228/5F5303D0D45633FD8A94BF04275D83DA.jpg",
+      "description": "1uF ±10% 50V",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "1uF功放高频旁路；采用Basic库。",
+      "part_identity": "986355084616d04b"
+    },
+    {
+      "id": "c10u",
+      "role": "10uF功放低频旁路",
+      "name": "CL10A106KP8NNNC",
+      "manufacturer": "SAMSUNG(三星)",
+      "mpn": "CL10A106KP8NNNC",
+      "part_number": "CL10A106KP8NNNC",
+      "lcsc_code": "C19702",
+      "quantity": 2,
+      "designators": [
+        "C_BULK1",
+        "C_BULK2"
+      ],
+      "supplier": "LCSC / 嘉立创",
+      "stock": 10198173,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/20411.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20160218/1457707763339.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20221228/9808C9BEFFFABB90D0C992860D83393B.jpg",
+      "description": "10uF ±10% 10V",
+      "package": "0603",
+      "jlc_smt_library": "basic",
+      "assembly": {
+        "method": "jlc_smt",
+        "population": "mounted",
+        "jlc_smt_verified": false
+      },
+      "selection_reason": "10uF功放低频旁路；采用Basic库。",
+      "part_identity": "9eead8a54ca1fa31"
+    },
+    {
+      "id": "charge_usb",
+      "role": "后置充电口",
+      "name": "GT-USB-7096C",
+      "manufacturer": "G-Switch",
+      "mpn": "GT-USB-7096C",
+      "part_number": "GT-USB-7096C",
+      "lcsc_code": "C19188081",
+      "quantity": 1,
+      "supplier": "LCSC",
+      "source": "default",
+      "product_url": "https://www.lcsc.com/product-detail/C19188081.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/a5fd5605f60cbc21c64083528ce14d6d.pdf",
+      "package": "SMD",
+      "description": "垂直16P Type-C插座，高8.5±0.2mm，12mm宽基座；使用电源和两路CC，数据悬空。",
+      "designators": [
+        "USB_CHG"
+      ],
+      "assembly": {
+        "method": "manual",
+        "population": "mounted",
+        "side": "bottom"
+      },
+      "jlc_smt_library": "unknown",
+      "selection_reason": "薄型结构需后向插接；厂家第1页机械图核对8.5mm高度。供应商工具遇bot校验，直接读取LCSC及厂家PDF；精确封装由供应商导入。未获得Basic证据，采用手工焊接。",
+      "part_identity": "beac51d486cd0573"
+    },
+    {
+      "id": "usb_cc_resistors",
+      "role": "Type-C受电识别",
+      "name": "0603WAF5101T5E",
+      "manufacturer": "UNI-ROYAL(厚声)",
+      "mpn": "0603WAF5101T5E",
+      "part_number": "0603WAF5101T5E",
+      "lcsc_code": "C23186",
+      "quantity": 2,
+      "supplier": "LCSC",
+      "source": "default",
+      "product_url": "https://www.lcsc.com/product-detail/C23186.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+      "description": "5.1kΩ ±1% 0603，CC1及CC2各自下拉至GND",
+      "package": "0603",
+      "designators": [
+        "R_CC1",
+        "R_CC2"
+      ],
+      "assembly": {
+        "method": "manual",
+        "population": "mounted",
+        "side": "top"
+      },
+      "jlc_smt_library": "unknown",
+      "selection_reason": "新后口各自接5.1k下拉；原板USB口CC不并联。未取得JLC库级证据，先手工焊接。",
+      "part_identity": "913b658e56179760"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "battery_kamcy",
+      "role": "带保护电池候选",
+      "name": "602030-300mAh-3.7V",
+      "manufacturer": "KAMCY(康胜)",
+      "mpn": "602030-300mAh-3.7V",
+      "part_number": "602030-300mAh-3.7V",
+      "lcsc_code": "C3036734",
+      "quantity": 1,
+      "supplier": "LCSC / 嘉立创",
+      "stock": 26,
+      "source": "research",
+      "product_url": "https://item.szlcsc.com/3588019.html",
+      "datasheet_url": "https://atta.szlcsc.com//upload/public/pdf/source/20220902/E6C0B393C778827DC3414537781CFD1F.pdf",
+      "image_url": "https://alimg.szlcsc.com/upload/public/product/source/20230106/1E593AA2F4047EF597DE646D0A04D7B9.jpg",
+      "assembly": {
+        "method": "not_smt",
+        "population": "not_mounted"
+      },
+      "description": "KAMCY(康胜) 聚合物锂电池 3.7V 300mAh 1个",
+      "selection_reason": "较窄但较厚；有PCM与出线成品规格及国内现货记录。",
+      "part_identity": "4660cd004507975b"
+    }
+  ],
+  "supply_risks": [
+    "已选精确料号；库存为查询快照。",
+    "电池按厂家第12页的带PCM出线成品采购；不使用裸电芯替代。",
+    "音量、续航、BLE及Android兼容性须样机实测。",
+    "顶部侧按键已改为TS24CA C393942；国内立创库存424739件为2026-11-09查询快照。",
+    "GT-USB-7096C供应商PDF与立创页面已读，工具报价接口受bot校验；库存以网页快照为参考。USB和新增CC电阻暂采用手工装配。",
+    "约19mm薄型版载板已重新发布，0电气/间距错误、0未连接，另有4条丝印重叠提示；USB及新增CC电阻手工焊接，其余按SMT清单。",
+    "取消高排针，以10根30AWG短线连接XIAO；背面Type-C是新增垂直充电座，原USB留在壳内供编程。",
+    "主控高度采用1mm基板+4mm元件工程保留区；实际高度、四键回弹、线束焊点、BLE天线近电池及载板的影响须首件测量。"
+  ],
+  "unresolved_items": [],
+  "bom_ready": true,
+  "requirements_digest": "e0cd900c29100d665ef87f4b67903e7fdffc62915eb3b14eba1aab0177e127ac"
+}

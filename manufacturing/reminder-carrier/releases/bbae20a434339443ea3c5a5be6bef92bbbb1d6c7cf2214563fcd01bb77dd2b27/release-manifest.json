@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27",
+  "designId": "reminder-carrier",
+  "buildId": "90ec17a5f088a038a10d9edef45210cbba948e485e8510cf76d41f608c6ffedd",
+  "candidateId": "047f49bf3a941970c572088cd24537c49d48855112911e5be91954d8cc9c5109",
+  "approvedAt": "2026-11-09T09:47:08.021Z",
+  "sections": [
+    {
+      "id": "fabrication",
+      "status": "ready",
+      "files": [
+        "drill/board-NPTH.drl",
+        "drill/board-PTH.drl",
+        "drill/reminder-carrier-drill-report.txt",
+        "gerbers/board-B_Cu.gbl",
+        "gerbers/board-B_Mask.gbs",
+        "gerbers/board-B_Paste.gbp",
+        "gerbers/board-B_Silkscreen.gbo",
+        "gerbers/board-Edge_Cuts.gm1",
+        "gerbers/board-F_Cu.gtl",
+        "gerbers/board-F_Mask.gts",
+        "gerbers/board-F_Paste.gtp",
+        "gerbers/board-F_Silkscreen.gto",
+        "gerbers/board-job.gbrjob"
+      ],
+      "blockingCodes": []
+    },
+    {
+      "id": "assembly",
+      "status": "ready",
+      "files": [
+        "jlc-smt-bom.csv",
+        "jlc-smt-placement.csv"
+      ],
+      "blockingCodes": []
+    },
+    {
+      "id": "mechanical",
+      "status": "ready",
+      "files": [
+        "assembly.glb",
+        "assembly.step"
+      ],
+      "blockingCodes": []
+    }
+  ],
+  "package": [
+    {
+      "path": "assembly.glb",
+      "sha256": "344d57a2cc3c7fead595087f414905fc53212a2bf29bb3748c727914834408eb",
+      "sizeBytes": 25244292
+    },
+    {
+      "path": "assembly.step",
+      "sha256": "15bf1f7de02c94664a699a5cbe4ec2a9611e7452a40138204f7f8616dcfab7d7",
+      "sizeBytes": 12077757
+    },
+    {
+      "path": "circuit.json",
+      "sha256": "d7e2b6c9e3c24edc9d75a31e75d373d01c79975c9ba4ec81d9868f601076b783",
+      "sizeBytes": 533552
+    },
+    {
+      "path": "drill/board-NPTH.drl",
+      "sha256": "eea076f03bcfa23328d24cc963858e687b8c20691be716b59011623ea6b3650d",
+      "sizeBytes": 470
+    },
+    {
+      "path": "drill/board-PTH.drl",
+      "sha256": "0b4e1ae7449254b00f5fa167da7ec21b60db7ef9218fef13086e1490dade6451",
+      "sizeBytes": 841
+    },
+    {
+      "path": "drill/reminder-carrier-drill-report.txt",
+      "sha256": "5ab315b3c7926d9bbce64696f9bfc25ba11a3ad447faec77f35c40a6ed8b707c",
+      "sizeBytes": 767
+    },
+    {
+      "path": "gerbers/board-B_Cu.gbl",
+      "sha256": "584208ffd2bb5f4fd2206a283624f09789d10b3bd751c253531c68bb025dde37",
+      "sizeBytes": 40055
+    },
+    {
+      "path": "gerbers/board-B_Mask.gbs",
+      "sha256": "3624ca787ee909abc1a29c6f93dd9354400f35fc8523fc9735fab0a75c13b7d2",
+      "sizeBytes": 1993
+    },
+    {
+      "path": "gerbers/board-B_Paste.gbp",
+      "sha256": "cbb20ecb505eaaa44150503953e622db2dcee0409031ec759c47de44b57ad4e2",
+      "sizeBytes": 1059
+    },
+    {
+      "path": "gerbers/board-B_Silkscreen.gbo",
+      "sha256": "7aa92e7f2da3a26807c1455de41125fc1d95e3a7a8d4bce4a4284c4a4046fd1c",
+      "sizeBytes": 1587
+    },
+    {
+      "path": "gerbers/board-Edge_Cuts.gm1",
+      "sha256": "4089222eb859384c964cc8a27ba2d9284bd058c03c63489e179a02b9c0076c34",
+      "sizeBytes": 680
+    },
+    {
+      "path": "gerbers/board-F_Cu.gtl",
+      "sha256": "1ad414fac1aaecb0bc4bd938786882115f51ac1398c77c71bfc9565972357395",
+      "sizeBytes": 67701
+    },
+    {
+      "path": "gerbers/board-F_Mask.gts",
+      "sha256": "fba60744d0179d30ca05632c22ccb350f70d5d190644d14b19311c3e5cfd30ce",
+      "sizeBytes": 4537
+    },
+    {
+      "path": "gerbers/board-F_Paste.gtp",
+      "sha256": "0ef8ff5ddb15ea2bf64e556cdb95079172b622fcf86d7c5d37bc90f3759f9f2c",
+      "sizeBytes": 3578
+    },
+    {
+      "path": "gerbers/board-F_Silkscreen.gto",
+      "sha256": "f61683d27aaed77462e35cafb859939293ac0963a865bf25481036f99b7b9568",
+      "sizeBytes": 18823
+    },
+    {
+      "path": "gerbers/board-job.gbrjob",
+      "sha256": "a9beb4bc3bb92cece770c2cb289ed679a356812e19e37cd7528e2302ef40eca6",
+      "sizeBytes": 2657
+    },
+    {
+      "path": "jlc-smt-bom.csv",
+      "sha256": "e24561ac30e981612f73682bb8e1262872705e0c11507bfab13fcf1d00494104",
+      "sizeBytes": 794
+    },
+    {
+      "path": "jlc-smt-placement.csv",
+      "sha256": "dd3e9b1ab321986681a2599dd67f0bbf3d36f77b492cfb0d408adc05badf30bf",
+      "sizeBytes": 1158
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "d532e0c795d8f53cf00b7349d33ef508bf381839d3d7fda338729d67db4a7334",
+      "sizeBytes": 19649
+    },
+    {
+      "path": "previews/gerber-bottom.png",
+      "sha256": "5a4d8b05244d0f14c4bfdebdad1d6ccb03730a810c1c1b3442c9a66d0ae8698d",
+      "sizeBytes": 68896
+    },
+    {
+      "path": "previews/gerber-bottom.svg",
+      "sha256": "760921e226f1dba3df3d7d370b880079c7cf4ae6fcdc8da1f267ebf6e8226dd7",
+      "sizeBytes": 45400
+    },
+    {
+      "path": "previews/gerber-top.png",
+      "sha256": "db74e5feec1bd9e652ab18e8bc3e4551c980eb761e2ace63dcca3c79e64e4622",
+      "sizeBytes": 118183
+    },
+    {
+      "path": "previews/gerber-top.svg",
+      "sha256": "569e0df459340b99fb59d7b49616d40c8876a896b948e911f973b8854337d73d",
+      "sizeBytes": 85267
+    }
+  ]
+}

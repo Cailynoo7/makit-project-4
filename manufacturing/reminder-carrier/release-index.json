@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "releaseId": "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27",
+      "designId": "reminder-carrier",
+      "buildId": "90ec17a5f088a038a10d9edef45210cbba948e485e8510cf76d41f608c6ffedd",
+      "candidateId": "047f49bf3a941970c572088cd24537c49d48855112911e5be91954d8cc9c5109",
+      "approvedAt": "2026-11-09T09:47:08.021Z"
+    }
+  ]
+}
