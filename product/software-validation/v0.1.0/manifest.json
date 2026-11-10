@@ -1,0 +1,78 @@
+{
+  "version": "0.1.0-validation",
+  "built_utc": "2026-11-09T09:08:42.239532+00:00",
+  "android": {
+    "package": "cn.makit.radioreminder",
+    "minimum_api": 26,
+    "target_api": 35,
+    "apk_signature_v2_v3_verified": true,
+    "internet_permission": false,
+    "installed_on_real_phone": false
+  },
+  "firmware": {
+    "fqbn": "Seeeduino:nrf52:xiaonRF52840",
+    "core": "1.1.13",
+    "softdevice_required": "S140 7.3.0",
+    "application_start": "0x27000",
+    "uf2_family": "0xADA52840",
+    "uf2_matches_compiled_hex": true,
+    "flash_bytes": 125476,
+    "ram_bytes": 14208,
+    "flashed_on_real_hardware": false
+  },
+  "tests": {
+    "java_checks": 25,
+    "java_passed": true,
+    "firmware_core_passed": true,
+    "real_call_ble_audio_end_to_end_tested": false
+  },
+  "limitations": [
+    "Android READ_CALL_LOG属于hard restricted，可能无法授权；默认不启用通知推断",
+    "通知兼容模式不能保证排除主动拒接",
+    "手机重启需手动恢复连接；厂商后台策略未实测",
+    "仅点击系统未接通知或显式确认可作为查看依据，解锁不算已查看",
+    "未完成真实手机/挂件联调、响度、电气功率、续航和充电测试"
+  ],
+  "artifacts": [
+    {
+      "name": "apk-verification.txt",
+      "bytes": 2931,
+      "sha256": "f9a2a1736f52f47dcba20acf53e79414e848dbad3faba3b02ba7dbea353e3768"
+    },
+    {
+      "name": "radio-reminder-serial-dfu.zip",
+      "bytes": 126341,
+      "sha256": "376cecfc2482427909534e904922147377d5bf174422e135195ba64daaf17b7d"
+    },
+    {
+      "name": "radio-reminder-validation.apk",
+      "bytes": 33176,
+      "sha256": "14c5d7b0fb34e95d591e33337658652251262ef2cb96367b8f7ba2109302a66b"
+    },
+    {
+      "name": "radio-reminder-xiao-nrf52840.hex",
+      "bytes": 353025,
+      "sha256": "e8c3900bec99689daa69a23575490ae155a64d1b31447a833ba31f43312b7f88"
+    },
+    {
+      "name": "radio-reminder-xiao-nrf52840.uf2",
+      "bytes": 251392,
+      "sha256": "9f350144684e9cc9d79abe1dde0b01e99cac980d7782a9d87ff9e884edeb15a5"
+    },
+    {
+      "name": "test-results.json",
+      "bytes": 1467,
+      "sha256": "91f9e5fe1714f74b503fa1dfbd9b7acc858aad35ab7e4d28db374152b07049a5"
+    },
+    {
+      "name": "先读这里-安装与测试.md",
+      "bytes": 5392,
+      "sha256": "97bbfb484d0afda02322169201d6975ff7e0a2820761f798b74275b1b5099ac6"
+    },
+    {
+      "name": "软件源代码.zip",
+      "bytes": 36165,
+      "sha256": "46c75a461d172d2985a63727c37bf236360b14c9545d3fc2fa3769f3735ac68c"
+    }
+  ]
+}

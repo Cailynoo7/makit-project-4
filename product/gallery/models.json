@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "file": "models/radio-reminder.glb",
+      "design": "radio-reminder"
+    },
+    {
+      "file": "models/reminder-carrier.glb",
+      "design": "reminder-carrier"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+It needs to be used with the companion app, which must be installed and configured on the phone that requires missed-call alerts.Currently, it only supports the Android platform. Installation package path:https://pan.baidu.com/s/1pNtq8R2cLOIjFiSAPOK7ug?pwd=at9h

@@ -25,10 +25,17 @@ public final class BleLink {
  }
  private final ScanCallback scanCallback=new ScanCallback(){public void onScanResult(int type,ScanResult result){listener.found(result.getDevice());}public void onScanFailed(int code){listener.state("蓝牙扫描失败："+code,false);}};
  public void stopScan(){if(scanTimeout!=null)h.removeCallbacks(scanTimeout);if(scanner!=null){try{scanner.stopScan(scanCallback);}catch(SecurityException ignored){}scanner=null;}}
- public void connect(String mac){generation++;closed=false;address=mac;stopScan();closeGatt();listener.state("正在连接挂件",false);BluetoothAdapter a=ctx.getSystemService(BluetoothManager.class).getAdapter();BluetoothDevice d=a.getRemoteDevice(mac);if(d.getBondState()==BluetoothDevice.BOND_NONE)d.createBond();gatt=d.connectGatt(ctx,false,callback,BluetoothDevice.TRANSPORT_LE);armTimeout();}
+ public void connect(String mac){
+  generation++;closed=false;address=mac;stopScan();closeGatt();
+  try{BluetoothManager m=ctx.getSystemService(BluetoothManager.class);BluetoothAdapter a=m==null?null:m.getAdapter();
+   if(a==null||!a.isEnabled()){listener.state("蓝牙未开启；来电监听继续，等待蓝牙恢复",false);reconnect();return;}
+   listener.state("正在连接挂件",false);BluetoothDevice d=a.getRemoteDevice(mac);if(d.getBondState()==BluetoothDevice.BOND_NONE)d.createBond();gatt=d.connectGatt(ctx,false,callback,BluetoothDevice.TRANSPORT_LE);armTimeout();
+  }catch(SecurityException e){closed=true;listener.state("蓝牙权限不可用，请打开App重新授权",false);}
+  catch(RuntimeException e){listener.state("暂时无法连接挂件；稍后重试",false);reconnect();}
+ }
  private void armTimeout(){if(timeout!=null)h.removeCallbacks(timeout);timeout=()->{listener.state("连接超时，稍后重试",false);reconnect();};h.postDelayed(timeout,20000);}
  private void reconnect(){if(closed)return;long token=++generation;closeGatt();h.postDelayed(()->{if(!closed&&token==generation&&address!=null)connect(address);},10000);}
- private void closeGatt(){ready=false;command=null;queue.clear();writing=false;if(timeout!=null)h.removeCallbacks(timeout);if(gatt!=null){gatt.disconnect();gatt.close();gatt=null;}}
+ private void closeGatt(){ready=false;command=null;queue.clear();writing=false;if(timeout!=null)h.removeCallbacks(timeout);if(gatt!=null){try{gatt.disconnect();}catch(RuntimeException ignored){}try{gatt.close();}catch(RuntimeException ignored){}gatt=null;}}
  public void close(){generation++;closed=true;stopScan();closeGatt();}
  public void send(int op,int arg){if(!ready)return;byte[] b=Protocol.packet(op,++sequence,arg);if(queue.size()>16){listener.state("蓝牙指令拥堵，重连",false);reconnect();return;}queue.add(b);drain();}
  private void drain(){if(writing||queue.isEmpty()||gatt==null||command==null)return;writing=true;command.setWriteType(BluetoothGattCharacteristic.WRITE_TYPE_DEFAULT);command.setValue(queue.peek());if(!gatt.writeCharacteristic(command)){writing=false;reconnect();}else armTimeout();}

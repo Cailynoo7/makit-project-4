@@ -1,0 +1,1 @@
+本固件使用Seeed nRF52 Boards 1.1.13（Adafruit/Arduino核心、Bluefruit、TinyUSB、LittleFS、FreeRTOS及Nordic驱动）。本目录保留上游许可。完整对应源码可从 https://files.seeedstudio.com/arduino/core/nRF52/Seeed_nRF52_Boards-1.1.13.tar.bz2 获取；本项目固件源码与可重建工具见源代码包。S140 7.3.0由板上环境提供，交付的应用不包含替换SoftDevice或bootloader。

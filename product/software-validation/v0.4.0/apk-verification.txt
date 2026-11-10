@@ -1,0 +1,51 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Makit Validation ONLY
+Signer #1 certificate SHA-256 digest: 195388c69d974ec210212eb0d4b57520372433760332a71f940ef2c3b7786360
+Signer #1 certificate SHA-1 digest: 036084514eb9a06b10ccbe1b1ea4632c2d8f9fc2
+Signer #1 certificate MD5 digest: f00eae19475edf6b5ccd7f79d5e605d7
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 7ab409fea662288e38b22ca7614f854adcad7c881c3660f617661d6c9889abec
+Signer #1 public key SHA-1 digest: 9d788fcc26255c974d035bc3ddfff00102d47870
+Signer #1 public key MD5 digest: 2156bfa1fd12eb7ecc5883d67b5db33e
+
+package: name='cn.makit.radioreminder' versionCode='5' versionName='0.4.0-validation' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+minSdkVersion:'26'
+targetSdkVersion:'35'
+uses-permission: name='android.permission.BLUETOOTH' maxSdkVersion='30'
+uses-permission: name='android.permission.BLUETOOTH_ADMIN' maxSdkVersion='30'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION' maxSdkVersion='30'
+uses-permission: name='android.permission.BLUETOOTH_SCAN' usesPermissionFlags='neverForLocation'
+uses-permission: name='android.permission.BLUETOOTH_CONNECT'
+uses-permission: name='android.permission.READ_PHONE_STATE'
+uses-permission: name='android.permission.READ_CALL_LOG'
+uses-permission: name='android.permission.POST_NOTIFICATIONS'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+application: label='收音机提醒·验证版' icon=''
+launchable-activity: name='cn.makit.radioreminder.MainActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.bluetooth_le'
+  uses-feature: name='android.hardware.bluetooth'
+  uses-implied-feature: name='android.hardware.bluetooth' reason='requested android.permission.BLUETOOTH permission, requested android.permission.BLUETOOTH_ADMIN permission, and targetSdkVersion > 4'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_FINE_LOCATION permission'
+provides-component:'notification-listener'
+main
+other-activities
+other-receivers
+other-services
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales:
+densities:

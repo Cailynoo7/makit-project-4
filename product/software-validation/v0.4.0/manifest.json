@@ -1,0 +1,154 @@
+{
+  "version": "0.4.0-validation",
+  "hardware": {
+    "pcb_release": "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27",
+    "cad_revision": "bd6dccc836a6128dad2e18ea90512280dc052231f96e8ca5fb806567bae907ab",
+    "physical_buttons": 4,
+    "front_button": {
+      "position_mm": [
+        0,
+        -9.45,
+        -4
+      ],
+      "pin": "D2",
+      "short_idle": "switch_sound_and_preview",
+      "short_alert": "stop_and_reset_count_only",
+      "long_3s": "pairing_window_60s"
+    },
+    "unused_pin": "D3",
+    "controller_wire_count": 10,
+    "compatible_pcb_releases": [
+      "b214c430e0b76a27b88e1ff2e4da4978f92319fffbd9c049c417d8f65235cd53",
+      "bbae20a434339443ea3c5a5be6bef92bbbb1d6c7cf2214563fcd01bb77dd2b27"
+    ],
+    "power_button_position_mm": [
+      7,
+      9.45,
+      9
+    ]
+  },
+  "built_utc": "2026-11-10T01:30:17.305551+00:00",
+  "android": {
+    "package": "cn.makit.radioreminder",
+    "minimum_api": 26,
+    "target_api": 35,
+    "apk_signature_v2_v3_verified": true,
+    "internet_permission": false,
+    "installed_on_real_phone": false,
+    "same_signing_certificate_as_v0_2_0": true,
+    "persistent_call_history": true,
+    "live_vs_backfill_evidence": true,
+    "recovery_paths": [
+      "START_STICKY",
+      "task_removed_inexact_alarm",
+      "PHONE_STATE_broadcast",
+      "BOOT_COMPLETED",
+      "MY_PACKAGE_REPLACED",
+      "user_reopen"
+    ],
+    "recovery_requires_prior_user_enable": true,
+    "new_dangerous_permissions": false,
+    "permission_set_matches_v0_3_1": true,
+    "recovery_receivers_present_in_apk": true,
+    "database_version": 2,
+    "history_max_records": 1000
+  },
+  "firmware": {
+    "version": "0.2.0-validation",
+    "unchanged_from_v0_2_0": true,
+    "fqbn": "Seeeduino:nrf52:xiaonRF52840",
+    "core": "1.1.13",
+    "softdevice_required": "S140 7.3.0",
+    "application_start": "0x27000",
+    "uf2_family": "0xADA52840",
+    "uf2_matches_compiled_hex": true,
+    "flash_bytes": 125524,
+    "ram_bytes": 14196,
+    "flashed_on_real_hardware": false
+  },
+  "tests": {
+    "java_checks": 25,
+    "java_passed": true,
+    "history_state_checks": 15,
+    "history_storage_checks": 10,
+    "call_observation_checks": 11,
+    "recovery_policy_checks": 18,
+    "miui_clear_recents_recovery_real_device_tested": false,
+    "boot_recovery_real_device_tested": false,
+    "android12_background_denial_real_device_tested": false,
+    "history_persistence_desktop_sqlite_tested": true,
+    "android_database_reboot_tested": false,
+    "call_history_ui_real_device_tested": false,
+    "firmware_core_passed": true,
+    "real_call_ble_audio_end_to_end_tested": false
+  },
+  "limitations": [
+    "系统记录补读不代表后台实时监听成功，不用于触发挂件补响",
+    "系统强行停止、厂商禁止自启动/广播或后台冻结时，无法保证恢复",
+    "Android12及以上可能拒绝电话广播或非精确闹钟启动前台服务；失败时记录原因并尽可能通知用户",
+    "恢复会建立新监听会话与蓝牙连接，期间断档不补响，非精确恢复检查没有固定时限",
+    "Android READ_CALL_LOG属于hard restricted，可能无法授权；默认不启用通知推断",
+    "通知兼容模式不能保证排除主动拒接",
+    "手机重启后已开启监听者尝试恢复；首次解锁、权限及厂商策略仍可能阻止，尚未真机验证",
+    "仅点击系统未接通知或显式确认可作为查看依据，解锁不算已查看",
+    "未完成真实手机/挂件联调、响度、电气功率、续航和充电测试"
+  ],
+  "compatibility_review": {
+    "scope": "code_and_official_sources_only",
+    "cross_brand_real_device_verified": false,
+    "guide": "Android跨品牌适配与测试.md",
+    "test_record_template": "Android兼容性测试记录.csv"
+  },
+  "artifacts": [
+    {
+      "name": "Android兼容性测试记录.csv",
+      "bytes": 10205,
+      "sha256": "296ed8d3dc56315e115ac9365f1be09c92e29d7eed546330e152f7bf38c830bc"
+    },
+    {
+      "name": "Android跨品牌适配与测试.md",
+      "bytes": 14648,
+      "sha256": "89a0e406b53cb25d93816c29a42a3e4b9e4ced7011393a664a2ca66387c96a07"
+    },
+    {
+      "name": "apk-verification.txt",
+      "bytes": 2948,
+      "sha256": "755876aad64c2368536ca5797bffe7923646edd3b528a0c63565ee43414b65b3"
+    },
+    {
+      "name": "radio-reminder-serial-dfu.zip",
+      "bytes": 126389,
+      "sha256": "dcab8abd4c39c54566eee356b4934bc86434a2fbf5b9a0bd3346121e41ff0ca0"
+    },
+    {
+      "name": "radio-reminder-validation.apk",
+      "bytes": 41367,
+      "sha256": "40aec78f1b79b7edc3942ee1096e7eaa2c17c7198fab0d258b9ced540305dfe9"
+    },
+    {
+      "name": "radio-reminder-xiao-nrf52840.hex",
+      "bytes": 353160,
+      "sha256": "1ff9adac82be771a1982b181cf4174b0826fe4a5e39aba098a89a6112b085625"
+    },
+    {
+      "name": "radio-reminder-xiao-nrf52840.uf2",
+      "bytes": 251392,
+      "sha256": "9576687489fd54f4879268cd423c2d4367c91fe49bbf4df5bc1b97d21124fa4f"
+    },
+    {
+      "name": "test-results.json",
+      "bytes": 3215,
+      "sha256": "e2ab33b5eb613df5691cfa15d9deecc425c677fd26f7b47947f6b4aaaf295a06"
+    },
+    {
+      "name": "先读这里-安装与测试.md",
+      "bytes": 10458,
+      "sha256": "a9054adeb2a7a050f7d090f1097e9af574666766c22917b2b2503035920033b4"
+    },
+    {
+      "name": "软件源代码.zip",
+      "bytes": 68484,
+      "sha256": "c9ea546fb05255ee4dac8438018f2d5bfbc9f34150dc1ad29a2b2c96739ee0a2"
+    }
+  ]
+}
