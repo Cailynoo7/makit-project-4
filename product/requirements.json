@@ -177,6 +177,18 @@
     "rear_power_layout_default": {
       "value": "电源键中心x7,z9，与后置Type-C中心z9对齐横排；下方居中推杆会侵入电池包络，故保留上方可用空间",
       "source": "default"
+    },
+    "front_key_colour": {
+      "value": "前面多功能键帽保持黑色，凸起三角标识表面为红色",
+      "source": "user"
+    },
+    "front_round_decoration_position": {
+      "value": "前面按键上方的圆形装饰向上移动，仍为装饰而非实体按键",
+      "source": "user"
+    },
+    "front_round_decoration_shift_mm": {
+      "value": 1.5,
+      "source": "default"
     }
   },
   "open_questions": []

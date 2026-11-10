@@ -104,7 +104,7 @@
           "target": "sound_key",
           "order": 0,
           "path": "design/radio-reminder/source/parts/sound_key/000-sound_key.py",
-          "sha256": "2acc02532e56e64f594a5771a666b0aafe3530f3244d7f42aa2867016a78bb7d"
+          "sha256": "6752cf166dcba4999a9950a9c6ea2cd8a2a61af1b070f92468657e9086f13df1"
         }
       ],
       "dependencies": [
@@ -232,7 +232,7 @@
           "target": "red_dot",
           "order": 0,
           "path": "design/radio-reminder/source/parts/red_dot/000-red_dot.py",
-          "sha256": "f64e6b92cc7628f2d663a0b9aa826b2168fdce723c76affb461928c8490e65d1"
+          "sha256": "6b1f5a82d66a7c01665e401d4f1b69c37c843d7211aa3ef34fe48faed9added4"
         }
       ],
       "dependencies": [
@@ -274,6 +274,33 @@
   ],
   "objects": [
     {
+      "id": "front_shell",
+      "target": "front_shell",
+      "label": "收音机前壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "a88977471fc58b36fe18129a33db2f454c4a973547bb1ebc056f157981b1d901",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
       "id": "rear_screw_0",
       "target": "front_shell",
       "label": "后盖螺钉",
@@ -309,33 +336,6 @@
       "role": "fastener",
       "kind": "generated",
       "shapeHash": "6b570f4a1a6645476254431cb977163c32f790d1befa52199eaa5f42a8abf1af",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "front_shell",
-      "target": "front_shell",
-      "label": "收音机前壳",
-      "material": "petg",
-      "kind": "generated",
-      "shapeHash": "a88977471fc58b36fe18129a33db2f454c4a973547bb1ebc056f157981b1d901",
       "transform": {
         "positionMm": [
           0,
@@ -491,12 +491,39 @@
       "datums": []
     },
     {
+      "id": "sound_triangle",
+      "target": "sound_key",
+      "label": "三角标识红色涂层",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "d88bb443fb53b6686a7266f96ddfb9b92587c66013f86286e664ffccec2ea532",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
       "id": "sound_key",
       "target": "sound_key",
       "label": "换音多功能键帽",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "ca962176b9e9f01756c0056c53e4b8b8dbb06e0a94495ca233e44b176d7c16cd",
+      "shapeHash": "e1fc158b5c65e4eecf63c09af7415a11ab6f21da764c92bc4b9a8e4e5c502218",
       "transform": {
         "positionMm": [
           0,
@@ -712,7 +739,7 @@
       "label": "红色标识",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "b9a13a5cc0dade226d2c7d002e85040267bd8bcea1d7044686938cbb44a1c8f8",
+      "shapeHash": "fc0e3c12369fe8edd03249e789ff5cc202fec79dc45b559c045b68dae65246fb",
       "transform": {
         "positionMm": [
           0,
@@ -801,7 +828,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-11-09T11:30:01.625Z",
+  "updatedAt": "2026-11-10T05:13:03.300Z",
   "parameters": {
     "front_shell": {
       "case_width": 60,
@@ -862,7 +889,10 @@
     "sound_key": {
       "sound_key_size": 6.2,
       "sound_key_protrusion": 0.7,
-      "sound_tip_gap": 0.2
+      "sound_tip_gap": 0.2,
+      "sound_triangle_radius": 1.7,
+      "sound_triangle_height": 0.25,
+      "sound_triangle_red_coat": 0.05
     },
     "volume_up": {
       "volume_up_width": 5,
@@ -897,7 +927,8 @@
     },
     "red_dot": {
       "red_dot_diameter": 2.9,
-      "red_dot_film": 0.1
+      "red_dot_film": 0.1,
+      "red_dot_center_z": 3.1
     },
     "control_trim": {
       "control_trim_width": 13.4,

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "e0cd900c29100d665ef87f4b67903e7fdffc62915eb3b14eba1aab0177e127ac",
+  "requirements_digest": "7a77ed084c2cc360145fbb770d69043870fcb2a1627052ecf9ca0b9653c43fd2",
   "items": [
     {
       "id": "main_controller",
@@ -369,7 +369,7 @@
         "method": "not_smt",
         "population": "not_mounted"
       },
-      "selection_reason": "前面只保留下方三角多功能键，后电源上移与Type-C同高；取消螺钉遮孔片和大圆槽，19.05mm总厚度及0.15mm接缝保持。",
+      "selection_reason": "前面黑色三角多功能键帽，三角凸纹顶面红色涂装；上方红色圆形装饰默认上移1.5mm。四键机构、后电源与Type-C横排、齐平沉头螺钉、19.05mm总厚度及0.15mm接缝保持。",
       "part_identity": "2ab02967cb292acc"
     },
     {
@@ -382,7 +382,8 @@
       "assembly": {
         "method": "not_smt",
         "population": "not_mounted"
-      }
+      },
+      "selection_reason": "红点直径2.9mm、中心z3.1mm；相较原位置上移1.5mm，其他饰线和调谐窗图案保持。"
     },
     {
       "id": "speaker_mesh",
@@ -548,6 +549,19 @@
       "jlc_smt_library": "unknown",
       "selection_reason": "新后口各自接5.1k下拉；原板USB口CC不并联。未取得JLC库级证据，先手工焊接。",
       "part_identity": "913b658e56179760"
+    },
+    {
+      "id": "red_marking_paint",
+      "role": "三角标识红色涂装",
+      "name": "水性丙烯酸模型漆 红色 小包装，用于黑色键帽三角凸纹顶面",
+      "part_number": "red-acrylic-marking-paint",
+      "quantity": 1,
+      "source": "default",
+      "assembly": {
+        "method": "not_smt",
+        "population": "not_mounted"
+      },
+      "selection_reason": "将三角凸纹顶面涂红，键帽基底保持黑色；先在同材质边角试涂，干燥后不应蹭色。模型中薄涂层不作为独立打印件。"
     }
   ],
   "unresolved_items": [],

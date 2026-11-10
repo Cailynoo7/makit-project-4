@@ -1,26 +1,26 @@
 {
   "designId": "radio-reminder",
-  "revision": "91efef393d7e702997b4761357d0f714d6927c5495b0dea09e54a6019194cf0e",
+  "revision": "0c918b5487b89d4e10244c920c3d22d135342fcfa299faa9c28fca2bbda02dc8",
   "schemaVersion": 3,
-  "exportId": "export-e3ebbf1d361b4b5ccdbcb2625ac4a9e3",
-  "generatedAt": "2026-11-09T11:30:01.625Z",
-  "designSha256": "3d6489027e20fbc3d472f3cd497fac84a7e894d1ec08289421e88589edd28d11",
+  "exportId": "export-c403711bac138086de28a3e6c2fff9df",
+  "generatedAt": "2026-11-10T05:13:03.300Z",
+  "designSha256": "f6a7bbec64b1553317ce11166a8159cf592d80ebd4ae7a0a6f0e403c41804539",
   "role": "enclosure",
-  "stateHash": "912a671904a27d93b28cd5039b4580ad2f777fd8218743dea636924786d6b684",
+  "stateHash": "5835476c8d94d2f90273dab719926f04070993e600d667b034f4d1fa87189951",
   "stateManifest": {
     "schemaVersion": 4,
     "designId": "radio-reminder",
     "role": "enclosure",
     "design": {
-      "revision": "91efef393d7e702997b4761357d0f714d6927c5495b0dea09e54a6019194cf0e",
-      "designSha256": "134b95ccee7e52827ea2a7bfc545ee2c7e5fa148af820b26326d7802757abb58",
-      "manifestSha256": "bd0cd6e9cd6021eeba2aa13f6f2bf60013aeb874472168c261f3e090b121d50d",
-      "modelSha256": "2442eb9c560b1511ffb94b053c379b2641ac6fe89304d03a008d3e214433e805",
+      "revision": "0c918b5487b89d4e10244c920c3d22d135342fcfa299faa9c28fca2bbda02dc8",
+      "designSha256": "673982caddf7139129438073572a153b288a6b7830aff531719f6eba22e82f62",
+      "manifestSha256": "20838e2391adf25b578557b5854cc313f4146ed0beb8c01434186ae63f10c1cc",
+      "modelSha256": "76db47239f27bc8d928039941e41fd02d406db259a43e13413cd72d8fe4f057a",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/radio-reminder/README.md",
-      "sha256": "ee8735f71c7248075490a998df6d89908db8259a3e119e9e5909f06b8a77d633"
+      "sha256": "d9c10977c3bb435ae91ee816b6394605e921e45de501f19aa315b40f5e71cbcf"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
@@ -42,11 +42,11 @@
         "step"
       ]
     },
-    "stateHash": "912a671904a27d93b28cd5039b4580ad2f777fd8218743dea636924786d6b684"
+    "stateHash": "5835476c8d94d2f90273dab719926f04070993e600d667b034f4d1fa87189951"
   },
   "buildArtifacts": {
-    "manifestSha256": "bd0cd6e9cd6021eeba2aa13f6f2bf60013aeb874472168c261f3e090b121d50d",
-    "modelSha256": "2442eb9c560b1511ffb94b053c379b2641ac6fe89304d03a008d3e214433e805"
+    "manifestSha256": "20838e2391adf25b578557b5854cc313f4146ed0beb8c01434186ae63f10c1cc",
+    "modelSha256": "76db47239f27bc8d928039941e41fd02d406db259a43e13413cd72d8fe4f057a"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -61,10 +61,10 @@
     "left_ring/left_ring": "de5c83beaf5a007e87c8858aaec90635760d150548e126e320f2fbd8c39e4baf",
     "power_key/power_key": "73284452fdd26843568c587dfcfcfd18f0f4b0b5351fbf750d9bba188a35f788",
     "rear_lid/rear_lid": "b21944e52f6d4e016ff97ad9852bb197d0ec521ff07ca0c36bb27d733b09a25b",
-    "red_dot/red_dot": "f64e6b92cc7628f2d663a0b9aa826b2168fdce723c76affb461928c8490e65d1",
+    "red_dot/red_dot": "6b1f5a82d66a7c01665e401d4f1b69c37c843d7211aa3ef34fe48faed9added4",
     "right_meter/right_meter": "bc69ac95eb82740768c3748fa98321b5d182291b6682316540ac25751e68d747",
     "right_ring/right_ring": "dfea1f954fd00b57f9a07a1b1c34bf7edb6172b3526073ae50e52550d7bd215a",
-    "sound_key/sound_key": "2acc02532e56e64f594a5771a666b0aafe3530f3244d7f42aa2867016a78bb7d",
+    "sound_key/sound_key": "6752cf166dcba4999a9950a9c6ea2cd8a2a61af1b070f92468657e9086f13df1",
     "speaker_mesh/speaker_mesh": "8e5452e312ec2636674596bfe6a43cc1fbff5467a3dbf0de9259c61f87dd59fa",
     "tuner_insert/tuner_insert": "f42bf2bddae595362cef068afb8fa5c0ec6afd362ed85b86a04c5ea11080057b",
     "tuner_panel/tuner_panel": "a34d041623308a22d1a1dafa6313238b5e7a5e572b97eea1b6ef312e9ce20e25",
@@ -85,10 +85,11 @@
     "rear_lid": "ab60b3b4f520cd3b4cafa5e0dc6b3d7ce3087da492cccc86973e1f9f5e8df81d",
     "rear_screw_0": "89ad62169d7c00f8770c24a1682d4fc91af06280c6b6c70253ee372bf0183989",
     "rear_screw_1": "6b570f4a1a6645476254431cb977163c32f790d1befa52199eaa5f42a8abf1af",
-    "red_dot": "b9a13a5cc0dade226d2c7d002e85040267bd8bcea1d7044686938cbb44a1c8f8",
+    "red_dot": "fc0e3c12369fe8edd03249e789ff5cc202fec79dc45b559c045b68dae65246fb",
     "right_meter": "efeee54aee7f5f8514bd5502cc82cd0b91176928c511f32c92bd8664c595b26c",
     "right_ring": "aad619524f477b7de6f24c44cb29826f5ea0f4882f68e6cadc3f5726160e2822",
-    "sound_key": "ca962176b9e9f01756c0056c53e4b8b8dbb06e0a94495ca233e44b176d7c16cd",
+    "sound_key": "e1fc158b5c65e4eecf63c09af7415a11ab6f21da764c92bc4b9a8e4e5c502218",
+    "sound_triangle": "d88bb443fb53b6686a7266f96ddfb9b92587c66013f86286e664ffccec2ea532",
     "speaker_mesh": "b21a3a26a0647e3bc287b33a68d2fc954818327071153eac0497c695469163c6",
     "tuner_insert": "40896ce616aea8bcdd317c004ec0d8a16b3d9412ab963c6efbc50b0694c2fcd9",
     "tuner_panel": "0615ac48a7d77106d63e922a8c7728db131eda62d4e7fc37ad3929759b448a3a",
@@ -96,28 +97,28 @@
     "volume_up": "f2c756c86894fa2757e7bd2a898a3ab521395f67ad0dd767008f1b2131c8311a"
   },
   "runtime": {
-    "manifestHash": "89fbd67628fc4aa1a6f5d4ca88257e7c32f414feb41d8a69ebbe972ad7b600a6",
+    "manifestHash": "fc14cea3fa144580d670f50a47b5e19f20d3314d173aa36fe6464963ee0359eb",
     "pythonVersion": "3.12.13",
     "build123dVersion": "0.10.0",
     "ocpVersion": "7.8.1.1.post1",
-    "cadpyHash": "d5e9f5168ad46e1ecf2fc58e659e9bb49f508a73b0e43b6d4d70331eb4232b74"
+    "cadpyHash": "9d8309bdd0a4779c7701aff0d2b54a8c30d0cdfdc1c825f242abfdd2906a104c"
   },
   "artifacts": [
     {
-      "path": "manufacturing/radio-reminder/releases/export-e3ebbf1d361b4b5ccdbcb2625ac4a9e3/model.step",
+      "path": "manufacturing/radio-reminder/releases/export-c403711bac138086de28a3e6c2fff9df/model.step",
       "role": "model/step",
-      "sha256": "eb314737f08b54d9a32e1c8f78a1ed7e867701ce5a5957dfd2974d3f27933d10",
-      "sizeBytes": 32760887
+      "sha256": "22755a18bedb09ce384d876240340825f6320928e50161d26165cf1ffa588145",
+      "sizeBytes": 32779770
     }
   ],
   "interference": {
-    "summary": "No interference across 171 object pairs.",
+    "summary": "No interference across 190 object pairs.",
     "counts": {
-      "objects": 19,
-      "pairs": 171,
-      "exact": 29,
+      "objects": 20,
+      "pairs": 190,
+      "exact": 28,
       "mesh": 1,
-      "cached": 1,
+      "cached": 3,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
@@ -130,9 +131,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "2ccdd1a2eac1e82d611c14c8e69b5f80",
     "projectId": "022c08f8-e93c-454d-a541-4c2ced5bb299",
-    "receiptPath": "manufacturing/radio-reminder/releases/export-e3ebbf1d361b4b5ccdbcb2625ac4a9e3/receipt.json",
-    "payloadSha256": "6b80f1495293b2d5f37e12d5678956063cfe707e6bef489ea7723482a3d743a0",
-    "mac": "f708aac45152f77a0bcdd682147a858b5ea6a3277c173a75aff3f010ce8fbd95"
+    "receiptPath": "manufacturing/radio-reminder/releases/export-c403711bac138086de28a3e6c2fff9df/receipt.json",
+    "payloadSha256": "ac18494ace00d98417c446d7ee80a5e349314c43032b6a3ba2a96d75ee930b8b",
+    "mac": "9843205c006e7e12eac6810fe8e5f116efe9ed7bea6ff9f71e2f179d77e07d7f"
   },
   "status": "handoff"
 }
