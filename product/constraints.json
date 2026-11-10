@@ -122,7 +122,7 @@
   },
   "overall_model_mm": {
     "width": 60,
-    "height_including_handle": 44,
+    "height_including_handle": 48.4,
     "depth_including_keys": 19.05,
     "body_depth": 17.5,
     "source": "default"
@@ -186,5 +186,34 @@
     "hook_stem_thickness_mm": 0.8,
     "opening_tilt_deg": 7,
     "opening_lift_mm": 0.8
+  },
+  "handle": {
+    "outer_width_mm": 58.0,
+    "main_height_above_body_mm": 10.0,
+    "bar_width_mm": 3.4,
+    "depth_mm": 3.6,
+    "outer_top_radius_mm": 2.0,
+    "inner_top_radius_mm": 1.4,
+    "edge_radius_mm": 0.45,
+    "lanyard_hole": {
+      "shape": "closed_semicircle",
+      "center_x_mm": 0,
+      "flat_bottom_z_mm": 27.2,
+      "nominal_width_mm": 4.0,
+      "nominal_height_mm": 2.0,
+      "axis": "y",
+      "lug_outer_radius_mm": 4.4,
+      "lug_top_z_mm": 31.4
+    },
+    "source": "default",
+    "note": "提手加粗/圆角及顶部中央半圆穿绳孔由用户提出，具体尺寸为默认值；圆拱与前壳一体，不新增独立零件。"
+  },
+  "shell_rounding": {
+    "outline_corner_radius_mm": 1.6,
+    "front_edge_radius_mm": 1.2,
+    "rear_edge_radius_mm": 0.6,
+    "reinforcement_outer_inset_mm": 0.35,
+    "source": "default",
+    "note": "前后壳共用外轮廓；侧壁加强条裁至圆角轮廓内，接合面去锐R0.1及0.15mm接缝保持。"
   }
 }

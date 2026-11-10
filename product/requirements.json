@@ -99,7 +99,7 @@
       "source": "default"
     },
     "design_direction": {
-      "value": "严格参考上传图片：黑色横向收音机、矩形提手、左右双圆孔网罩及银色圈、上方长条调谐窗、中部方形按键和红色点缀",
+      "value": "严格参考上传图片：黑色横向收音机、加粗圆角矩形提手，顶部正中有半圆形穿绳孔、左右双圆孔网罩及银色圈、上方长条调谐窗、中部方形按键和红色点缀",
       "source": "user"
     },
     "decorative_features": {
@@ -188,6 +188,40 @@
     },
     "front_round_decoration_shift_mm": {
       "value": 1.5,
+      "source": "default"
+    },
+    "handle_profile": {
+      "value": "收音机提手加粗并加圆角",
+      "source": "user"
+    },
+    "handle_lanyard_hole": {
+      "value": "提手顶部正中设置封闭半圆形小孔，用于穿挂绳",
+      "source": "user"
+    },
+    "handle_detail_dimensions_mm": {
+      "value": {
+        "bar_width": 3.4,
+        "depth": 3.6,
+        "outer_upper_radius": 2.0,
+        "inner_upper_radius": 1.4,
+        "edge_radius": 0.45,
+        "lug_outer_radius": 4.4,
+        "lanyard_hole_width": 4.0,
+        "lanyard_hole_height": 2.0
+      },
+      "source": "default"
+    },
+    "shell_rounding": {
+      "value": "外壳圆角适度加大，修复前壳左右两侧不齐的圆角段，保持左右一致且连续",
+      "source": "user"
+    },
+    "shell_rounding_dimensions_mm": {
+      "value": {
+        "outline_corner_radius": 1.6,
+        "front_edge_radius": 1.2,
+        "rear_edge_radius": 0.6,
+        "reinforcement_outer_inset": 0.35
+      },
       "source": "default"
     }
   },

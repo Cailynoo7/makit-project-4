@@ -3,11 +3,23 @@ from splitjoint import attach_panel_v1, SplitJointNotApplicableV1
 case_width=param('case_width',60.0)
 case_depth=param('case_depth',17.5)
 case_height=param('case_height',34.0)
-edge_radius=param('edge_radius',0.8)
+edge_radius=param('edge_radius',1.6)
+front_edge_radius=param('front_edge_radius',1.2)
+rear_edge_radius=param('rear_edge_radius',0.6)
+reinforcement_outer_inset=param('reinforcement_outer_inset',0.35)
 wall=param('wall',2.4)
 handle_width=param('handle_width',58.0)
 handle_height=param('handle_height',10.0)
-handle_bar=param('handle_bar',2.5)
+handle_bar=param('handle_bar',3.4)
+handle_depth=param('handle_depth',3.6)
+handle_outer_radius=param('handle_outer_radius',2.0)
+handle_inner_radius=param('handle_inner_radius',1.4)
+handle_edge_radius=param('handle_edge_radius',0.45)
+handle_root_embed=param('handle_root_embed',0.6)
+lanyard_outer_radius=param('lanyard_outer_radius',3.8)
+lanyard_hole_radius=param('lanyard_hole_radius',2.0)
+lanyard_flat_offset=param('lanyard_flat_offset',0.2)
+lanyard_root_radius=param('lanyard_root_radius',0.6)
 grille_radius=param('grille_radius',8.8)
 grille_hole=param('grille_hole',1.6)
 button_gap=param('button_gap',0.25)
@@ -28,12 +40,35 @@ lap_clearance=param('rear_lap_clearance',0.2)
 seam_y=case_depth/2-2.0-seam_gap
 front=Pos(0,(front_y+seam_y)/2,0)*Box(case_width,seam_y-front_y,case_height)
 front=fillet(front.edges().filter_by(Axis.Y),edge_radius)
-front=fillet(front.edges().group_by(Axis.Y)[0],edge_radius)
+front=fillet(front.edges().group_by(Axis.Y)[0],front_edge_radius)
 front=fillet(front.edges().group_by(Axis.Y)[-1],0.1)
 front-=Pos(0,2,0)*Box(case_width-2*wall,case_depth,case_height-2*wall)
-handle=Pos(0,0,case_height/2+handle_height/2-0.3)*Box(handle_width,handle_bar,handle_height+0.6)
-handle-=Pos(0,0,case_height/2+handle_height/2-0.8)*Box(handle_width-2*handle_bar,handle_bar+2,handle_height-handle_bar+1)
-handle=fillet(handle.edges().filter_by(Axis.Y),0.35)
+# Rounded U-frame with consistent section and an integrated closed half-round lanyard eye.
+handle_top=case_height/2+handle_height
+handle_bottom=case_height/2-handle_root_embed
+handle=Pos(0,0,(handle_top+handle_bottom)/2)*Box(handle_width,handle_depth,handle_top-handle_bottom)
+handle=fillet([e for e in handle.edges().filter_by(Axis.Y) if e.center().Z>handle_top-0.01],handle_outer_radius)
+inner_top=handle_top-handle_bar
+inner_bottom=handle_bottom-1.0
+handle_opening=Pos(0,0,(inner_top+inner_bottom)/2)*Box(handle_width-2*handle_bar,handle_depth+2,inner_top-inner_bottom)
+handle_opening=fillet([e for e in handle_opening.edges().filter_by(Axis.Y) if e.center().Z>inner_top-0.01],handle_inner_radius)
+handle-=handle_opening
+lug_bottom=handle_top-handle_root_embed
+lug_top=handle_top+lanyard_outer_radius
+lug=Pos(0,0,handle_top)*Rot(90,0,0)*Cylinder(lanyard_outer_radius,handle_depth)
+lug=lug & (Pos(0,0,(lug_bottom+lug_top)/2)*Box(2*lanyard_outer_radius+2,handle_depth+2,lug_top-lug_bottom))
+handle+=lug
+root_edges=[e for e in handle.edges().filter_by(Axis.Y) if abs(e.center().Z-handle_top)<0.01 and abs(e.center().X)<lanyard_outer_radius+1]
+assert len(root_edges)==2
+handle=fillet(root_edges,lanyard_root_radius)
+hole_flat=handle_top+lanyard_flat_offset
+hole=Pos(0,0,hole_flat)*Rot(90,0,0)*Cylinder(lanyard_hole_radius,handle_depth+2)
+hole=hole & (Pos(0,0,hole_flat+lanyard_hole_radius/2)*Box(2*lanyard_hole_radius+2,handle_depth+4,lanyard_hole_radius))
+handle-=hole
+rim_edges=[e for e in handle.edges() if abs(abs(e.center().Y)-handle_depth/2)<0.00001]
+handle=fillet(rim_edges,handle_edge_radius)
+assert len(handle.solids())==1
+print('Handle with lanyard eye',handle.bounding_box())
 front+=handle
 speaker_x=(-18.0,18.0)
 speaker_z=-5.0
@@ -58,9 +93,15 @@ for x in (-1,1):
 # Clear purchased speaker maximum envelope at the left guide, and XIAO USB on right.
 front-=Pos(-18,front_y+4.75,-5)*Rot(90,0,0)*Cylinder(9.3,5.5)
 front-=Pos(26.8,2.3,-3.5)*Box(2.4,3.0,10.0)
-# Symmetric reinforced wall strips stay outside protected battery / XIAO envelopes.
+# Recessed reinforcement follows the shared rounded outline without refilling the exterior roll.
+strip_inner=case_width/2-3.7
+strip_outer=case_width/2-reinforcement_outer_inset
+strip_width=strip_outer-strip_inner
+strip_center=(strip_outer+strip_inner)/2
+profile_keep=fillet(Box(case_width,case_depth+6,case_height).edges().filter_by(Axis.Y),edge_radius)
 for x in (-1,1):
-    front+=Pos(x*28.15,seam_y-2.825,closure_z)*Box(3.7,5.95,5.0)
+    reinforcement=Pos(x*strip_center,seam_y-2.825,closure_z)*Box(strip_width,5.95,5.0)
+    front+=reinforcement & profile_keep
 # Hidden lower hooks: pocket floor remains 1 mm thick, lip locks the hook foot.
 for x in (-hook_x,hook_x):
     front-=Pos(x,5.6,-15.3)*Box(hook_width+0.5,2.4,1.4)
@@ -91,7 +132,7 @@ lid_t=2.0
 # Flush outside faces, crisp mating edges. Outer-wall lap does not consume the hardware cavity.
 lid=Pos(0,case_depth/2-lid_t/2,0)*Box(case_width,lid_t,case_height)
 lid=fillet(lid.edges().filter_by(Axis.Y),edge_radius)
-lid=fillet(lid.edges().group_by(Axis.Y)[-1],0.35)
+lid=fillet(lid.edges().group_by(Axis.Y)[-1],rear_edge_radius)
 lid=fillet(lid.edges().group_by(Axis.Y)[0],0.1)
 lap_outer_w=case_width-1.6
 lap_outer_h=case_height-1.6

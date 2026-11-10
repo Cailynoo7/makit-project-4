@@ -12,7 +12,7 @@
           "target": "front_shell",
           "order": 0,
           "path": "design/radio-reminder/source/parts/front_shell/000-front_shell.py",
-          "sha256": "3b755268a11db137a225cd9499dde8d2c30b88253aa0904f1fabee54ff8bf98b"
+          "sha256": "7a0d29e68949e88ed9d352171563a4424ea85923987e3d1d1edb9935b63112ae"
         }
       ],
       "dependencies": []
@@ -274,33 +274,6 @@
   ],
   "objects": [
     {
-      "id": "front_shell",
-      "target": "front_shell",
-      "label": "收音机前壳",
-      "material": "petg",
-      "kind": "generated",
-      "shapeHash": "a88977471fc58b36fe18129a33db2f454c4a973547bb1ebc056f157981b1d901",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
       "id": "rear_screw_0",
       "target": "front_shell",
       "label": "后盖螺钉",
@@ -357,6 +330,33 @@
       "datums": []
     },
     {
+      "id": "front_shell",
+      "target": "front_shell",
+      "label": "收音机前壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "424fd861518700123273211a4b447f8d6e03f4e4490c87432bbe5b15b38ed60b",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
       "id": "carrier",
       "target": "imports",
       "label": "电源键同高横排载板",
@@ -388,7 +388,7 @@
       "label": "薄型后盖与固定面",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "ab60b3b4f520cd3b4cafa5e0dc6b3d7ce3087da492cccc86973e1f9f5e8df81d",
+      "shapeHash": "9e4c1392ed8553b03fa6a5819d9ad605ff8d3e3c44a51bc628e898583ed39b89",
       "transform": {
         "positionMm": [
           0,
@@ -828,17 +828,17 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-11-10T05:13:03.300Z",
+  "updatedAt": "2026-11-10T05:47:36.082Z",
   "parameters": {
     "front_shell": {
       "case_width": 60,
       "case_depth": 17.5,
       "case_height": 34,
-      "edge_radius": 0.8,
+      "edge_radius": 1.6,
       "wall": 2.4,
       "handle_width": 58,
       "handle_height": 10,
-      "handle_bar": 2.5,
+      "handle_bar": 3.4,
       "grille_radius": 8.8,
       "grille_hole": 1.6,
       "button_gap": 0.25,
@@ -863,7 +863,19 @@
       "usb_visible_opening_height": 3.76,
       "usb_visible_corner_radius": 1.6,
       "usb_lip_inner_y": 8.45,
-      "usb_lip_outer_y": 9.15
+      "usb_lip_outer_y": 9.15,
+      "handle_depth": 3.6,
+      "handle_outer_radius": 2,
+      "handle_inner_radius": 1.4,
+      "handle_edge_radius": 0.45,
+      "handle_root_embed": 0.6,
+      "lanyard_outer_radius": 4.4,
+      "lanyard_hole_radius": 2,
+      "lanyard_flat_offset": 0.2,
+      "lanyard_root_radius": 0.6,
+      "front_edge_radius": 1.2,
+      "rear_edge_radius": 0.6,
+      "reinforcement_outer_inset": 0.35
     },
     "imports": {},
     "rear_lid": {

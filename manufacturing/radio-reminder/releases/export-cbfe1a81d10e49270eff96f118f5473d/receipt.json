@@ -1,26 +1,26 @@
 {
   "designId": "radio-reminder",
-  "revision": "0c918b5487b89d4e10244c920c3d22d135342fcfa299faa9c28fca2bbda02dc8",
+  "revision": "4571b5b3803c27de213d45a86657daf4dd374fb4d9447987cbda974f44e39327",
   "schemaVersion": 3,
-  "exportId": "export-c403711bac138086de28a3e6c2fff9df",
-  "generatedAt": "2026-11-10T05:13:03.300Z",
-  "designSha256": "f6a7bbec64b1553317ce11166a8159cf592d80ebd4ae7a0a6f0e403c41804539",
+  "exportId": "export-cbfe1a81d10e49270eff96f118f5473d",
+  "generatedAt": "2026-11-10T05:47:36.082Z",
+  "designSha256": "9c38abd9a51bcbeba1c2bb8ecfd9e24e8d7ff8c28814557ad519ac8a5d416c61",
   "role": "enclosure",
-  "stateHash": "5835476c8d94d2f90273dab719926f04070993e600d667b034f4d1fa87189951",
+  "stateHash": "5d96aa4c71b19a92853d961526343930fe718595cb039cd2be040c29eb380ba5",
   "stateManifest": {
     "schemaVersion": 4,
     "designId": "radio-reminder",
     "role": "enclosure",
     "design": {
-      "revision": "0c918b5487b89d4e10244c920c3d22d135342fcfa299faa9c28fca2bbda02dc8",
-      "designSha256": "673982caddf7139129438073572a153b288a6b7830aff531719f6eba22e82f62",
-      "manifestSha256": "20838e2391adf25b578557b5854cc313f4146ed0beb8c01434186ae63f10c1cc",
-      "modelSha256": "76db47239f27bc8d928039941e41fd02d406db259a43e13413cd72d8fe4f057a",
+      "revision": "4571b5b3803c27de213d45a86657daf4dd374fb4d9447987cbda974f44e39327",
+      "designSha256": "b5dcc408f88b6bf1b6a893b8fc26f768ccca92bace237e30cfcf78425095c3ee",
+      "manifestSha256": "0a84897b60da67d887717bc35cb4fbce0d69b63b1525f9489c799ffcc7d62f5a",
+      "modelSha256": "5a027bc8f4b60ff6244e7417ed4ff4c36c96d352ba3ecceb7c81348596eccaf4",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/radio-reminder/README.md",
-      "sha256": "d9c10977c3bb435ae91ee816b6394605e921e45de501f19aa315b40f5e71cbcf"
+      "sha256": "19ae626cdae2c7100dd280ab6b22d9069f2a8e83d2d69975ecd110accd520d4c"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
@@ -42,11 +42,11 @@
         "step"
       ]
     },
-    "stateHash": "5835476c8d94d2f90273dab719926f04070993e600d667b034f4d1fa87189951"
+    "stateHash": "5d96aa4c71b19a92853d961526343930fe718595cb039cd2be040c29eb380ba5"
   },
   "buildArtifacts": {
-    "manifestSha256": "20838e2391adf25b578557b5854cc313f4146ed0beb8c01434186ae63f10c1cc",
-    "modelSha256": "76db47239f27bc8d928039941e41fd02d406db259a43e13413cd72d8fe4f057a"
+    "manifestSha256": "0a84897b60da67d887717bc35cb4fbce0d69b63b1525f9489c799ffcc7d62f5a",
+    "modelSha256": "5a027bc8f4b60ff6244e7417ed4ff4c36c96d352ba3ecceb7c81348596eccaf4"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -55,7 +55,7 @@
   "sourceHashes": {
     "control_trim/control_trim": "472967ab1bb235abebadd3657d009fdf3a638fb1c2959d49fa7cd0957314a611",
     "dial_red/dial_red": "5a92a5ed241379b46835cbddd315c787f9b6fa153f0f7bf5925312e81094f6fd",
-    "front_shell/front_shell": "3b755268a11db137a225cd9499dde8d2c30b88253aa0904f1fabee54ff8bf98b",
+    "front_shell/front_shell": "7a0d29e68949e88ed9d352171563a4424ea85923987e3d1d1edb9935b63112ae",
     "imports/carrier": "2726021ca7f10ca631156685b14e7dc8ddf370849b27c07acb479d2c602bfc5f",
     "left_meter/left_meter": "12f88f647a7797dc4dbfc45cbe48e9ae87734a3b49a861468c4b3a765146f5ef",
     "left_ring/left_ring": "de5c83beaf5a007e87c8858aaec90635760d150548e126e320f2fbd8c39e4baf",
@@ -78,11 +78,11 @@
     "carrier": "5d88c89b34ba62596fa9f34b626836627b1442c5b706f3b2eedf77eec553041a",
     "control_trim": "fe5f47adabd3c67b8999910a213275c48d30381d0bf81a89747adb3590273f77",
     "dial_red": "3ac08ecc678e8a7da398487c11d09b5c30a1487a72cc8767b330757da73b2399",
-    "front_shell": "a88977471fc58b36fe18129a33db2f454c4a973547bb1ebc056f157981b1d901",
+    "front_shell": "424fd861518700123273211a4b447f8d6e03f4e4490c87432bbe5b15b38ed60b",
     "left_meter": "f0a53adc2bc8384d8c1e2ba6c961597d07e10a9cc656e44482bb7a671ee2173a",
     "left_ring": "461ea7fbd89ced3b56de81707131be4b09c55925a8648205fdab3ae834db5fb8",
     "power_key": "f518f80c08425008d469610cb32d0f882b702f00a9de49ffed15ecbdd3a9b30e",
-    "rear_lid": "ab60b3b4f520cd3b4cafa5e0dc6b3d7ce3087da492cccc86973e1f9f5e8df81d",
+    "rear_lid": "9e4c1392ed8553b03fa6a5819d9ad605ff8d3e3c44a51bc628e898583ed39b89",
     "rear_screw_0": "89ad62169d7c00f8770c24a1682d4fc91af06280c6b6c70253ee372bf0183989",
     "rear_screw_1": "6b570f4a1a6645476254431cb977163c32f790d1befa52199eaa5f42a8abf1af",
     "red_dot": "fc0e3c12369fe8edd03249e789ff5cc202fec79dc45b559c045b68dae65246fb",
@@ -105,10 +105,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/radio-reminder/releases/export-c403711bac138086de28a3e6c2fff9df/model.step",
+      "path": "manufacturing/radio-reminder/releases/export-cbfe1a81d10e49270eff96f118f5473d/model.step",
       "role": "model/step",
-      "sha256": "22755a18bedb09ce384d876240340825f6320928e50161d26165cf1ffa588145",
-      "sizeBytes": 32779770
+      "sha256": "41179d2127d0b0946d0f43c51e1181d8147bfbe2eca69b843419926af3eac483",
+      "sizeBytes": 32982997
     }
   ],
   "interference": {
@@ -116,9 +116,9 @@
     "counts": {
       "objects": 20,
       "pairs": 190,
-      "exact": 28,
-      "mesh": 1,
-      "cached": 3,
+      "exact": 0,
+      "mesh": 0,
+      "cached": 36,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
@@ -131,9 +131,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "2ccdd1a2eac1e82d611c14c8e69b5f80",
     "projectId": "022c08f8-e93c-454d-a541-4c2ced5bb299",
-    "receiptPath": "manufacturing/radio-reminder/releases/export-c403711bac138086de28a3e6c2fff9df/receipt.json",
-    "payloadSha256": "ac18494ace00d98417c446d7ee80a5e349314c43032b6a3ba2a96d75ee930b8b",
-    "mac": "9843205c006e7e12eac6810fe8e5f116efe9ed7bea6ff9f71e2f179d77e07d7f"
+    "receiptPath": "manufacturing/radio-reminder/releases/export-cbfe1a81d10e49270eff96f118f5473d/receipt.json",
+    "payloadSha256": "512a1b8a41edd2d5c77cdc4ed986f236ccd2cb1341b1c2cbddb61905f6b2b6e0",
+    "mac": "9012f3d39ac3596a3ceff1bad3c157c8cd6994c7c0818024e196a138a3989db5"
   },
   "status": "handoff"
 }

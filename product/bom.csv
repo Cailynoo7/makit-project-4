@@ -13,7 +13,7 @@ c1u,CL10A105KB8NNNC,1,SAMSUNG(三星),CL10A105KB8NNNC,C15849,,research,https://i
 c10u,CL10A106KP8NNNC,2,SAMSUNG(三星),CL10A106KP8NNNC,C19702,,research,https://item.szlcsc.com/20411.html,https://atta.szlcsc.com//upload/public/pdf/source/20160218/1457707763339.pdf,https://alimg.szlcsc.com/upload/public/product/source/20221228/9808C9BEFFFABB90D0C992860D83393B.jpg
 carrier_pcb,漏接提醒器载板 52×26×1mm FR4 双层,1,,reminder-carrier bare PCB,,,default,,,
 rear_fasteners,ISO 7046 M2-0.4×6mm 十字沉头螺钉 黑色,2,,ISO7046-M2x6-black,,,default,,,
-printed_enclosure,约19mm薄型收音机外壳PETG套装：内藏挂钩与齐平沉头固定前壳/后盖、4键帽、2饰圈、调谐框与底片,1,,radio-reminder-print-set,,,default,,,
+printed_enclosure,约19mm薄型收音机外壳PETG套装：加粗圆角提手与中央半圆穿绳孔、内藏挂钩与齐平沉头固定前壳/后盖、4键帽、2饰圈、调谐框与底片,1,,radio-reminder-print-set,,,default,,,
 decorative_films,银色U形饰线、红点、红调谐线、2片米色电平表薄膜套装；按模型裁切,1,,radio-reminder-decal-set,,,default,,,
 speaker_mesh,黑色透声布圆片 直径18.4mm 厚0.15mm,1,,acoustic-cloth-18.4x0.15,,,default,,,
 battery_adhesive,可移除双面泡棉胶 厚0.5mm 3×22mm，电池贴后盖内面,2,,removable-foam-0.5-3x22,,,default,,,
@@ -21,7 +21,7 @@ pcb_retention_pads,泡棉胶垫 厚0.3mm 3×1mm，用于载板下缘后挡,1,,fo
 xiao_retention_tape,可移除双面薄胶 厚0.25mm 3×10mm，XIAO后固定面,2,,removable-tape-0.25-3x10,,,default,,,
 internal_wire,28AWG柔软绝缘线 红黑各50mm两组，用于电池及扬声器延长，接头热缩绝缘,2,,28AWG-red-black-50mm-pair,,,default,,,
 adhesive,柔性中性电子胶 小包装，用于扬声器边框、饰圈和调谐框，勿涂振膜,1,,neutral-electronics-adhesive,,,default,,,
-lanyard,可拆细挂绳 绳径≤1.5mm，穿提手,1,,detachable-lanyard-1.5mm,,,default,,,
+lanyard,可拆细挂绳 绳环单股直径≤1.2mm，穿提手顶部半圆孔,1,,detachable-lanyard-1.5mm,,,default,,,
 charge_cable,USB Type-C充电线，5V电源；后口仅充电，外侧收口9.54×3.76mm、R1.6；内侧11.8×5.4mm胶囊让位,1,,USB-C-compact-charge-cable,,,default,,,
 controller_solder_wires,30AWG柔软绝缘焊接线 50mm 10根及热缩管，贴板布线高度≤0.8mm，余线平铺留维修余量,1,,30AWG-50mm-10-wire-set,,,default,,,
 charge_usb,GT-USB-7096C,1,G-Switch,GT-USB-7096C,C19188081,,default,https://www.lcsc.com/product-detail/C19188081.html,https://datasheet.lcsc.com/datasheet/pdf/a5fd5605f60cbc21c64083528ce14d6d.pdf,
